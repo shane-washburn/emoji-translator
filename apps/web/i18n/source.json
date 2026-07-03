@@ -675,42 +675,6 @@
       ]
     },
     {
-      "key": "3db700f7aa85f76cc4c27f9731ee7506",
-      "source": "✋ Touch",
-      "contexts": [
-        {
-          "shape": "button",
-          "purpose": "button text for an action the user can take",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
-              "line": 452,
-              "kind": "button-text"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "2de696490b0342d13d6f69aa53696e18",
-      "source": "🌱 Touch Grass",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "body copy shown in the user interface",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
-              "line": 436,
-              "kind": "div-text"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "63ad62872696b1ec2af88b3535dfcb31",
       "source": "🎈 Balloon Blower",
       "contexts": [
@@ -1104,42 +1068,6 @@
       ]
     },
     {
-      "key": "083ad21990802d20fc5fdefdb7255565",
-      "source": "2 GB",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 250,
-              "kind": "value-literal:logic"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "974c2262615af73433567515efbb80e9",
-      "source": "4 GB",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 249,
-              "kind": "value-literal:logic"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "ea1cb11191f69296ba3feb853954243d",
       "source": "404: Goblin not found",
       "contexts": [
@@ -1164,24 +1092,6 @@
               "file": "apps/web/src/pages/NotFound.tsx",
               "line": 22,
               "kind": "heading-text"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "af5700014f646d2567efa6288d85ab2b",
-      "source": "8 GB",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 248,
-              "kind": "value-literal:logic"
             }
           ]
         }
@@ -2062,24 +1972,6 @@
       ]
     },
     {
-      "key": "e84e30b9390cdb64db6db2c9ab87846d",
-      "source": "Android",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 75,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "c66fa72be0878ecbffb0e8afd27371e1",
       "source": "Antarctica (really?)",
       "contexts": [
@@ -2199,24 +2091,6 @@
             {
               "file": "packages/modules/musical-dna/src/music.ts",
               "line": 76,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "6fbda3a3567da6d01bc9da915e91d702",
-      "source": "Arial",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 277,
               "kind": "value-literal"
             }
           ]
@@ -3175,24 +3049,6 @@
       ]
     },
     {
-      "key": "f7cee5eaf81ca6750bedc48055a4dffb",
-      "source": "Calibri",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 288,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "e8ae3c91b40e51ef58442bf24abc5cd8",
       "source": "Calms toward balance, grows slowly",
       "contexts": [
@@ -3205,24 +3061,6 @@
               "file": "packages/modules/aura-farm/src/AuraFarmPage.tsx",
               "line": 91,
               "kind": "data-field:hint"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "37f1cc582dd4411a4a0bde650358d5e1",
-      "source": "Cambria",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 289,
-              "kind": "value-literal"
             }
           ]
         }
@@ -3294,24 +3132,6 @@
             {
               "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
               "line": 181,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "445d337b5cd5de476f99333df6b0c2a7",
-      "source": "Canada",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 107,
               "kind": "value-literal"
             }
           ]
@@ -3403,39 +3223,6 @@
               "file": "packages/modules/aura-farm/src/aura.ts",
               "line": 284,
               "kind": "data-field:lesson"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "0c85f94de5dcdafb826c159e7cdbf83b",
-      "source": "Careful Reader",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 66,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 109,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 109,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/behavior.ts",
-              "line": 122,
-              "kind": "value-literal"
             }
           ]
         }
@@ -3838,24 +3625,6 @@
       ]
     },
     {
-      "key": "986c37480b1f1c2e443504b38b6361b4",
-      "source": "Chrome",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 68,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "2091523979dbedcad728958414922c72",
       "source": "Classical",
       "contexts": [
@@ -4036,24 +3805,6 @@
       ]
     },
     {
-      "key": "9495d2157f98b84570d8237d636b6712",
-      "source": "Comic Sans MS",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 282,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "d13bc5b68b2bd9e18f29777db17cc563",
       "source": "Common",
       "contexts": [
@@ -4149,24 +3900,6 @@
               "file": "packages/modules/goblin-mirror/src/inferences.ts",
               "line": 182,
               "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "16507cdd5bdee782f26fca800650b3c2",
-      "source": "Consolas",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 290,
-              "kind": "value-literal"
             }
           ]
         }
@@ -4527,24 +4260,6 @@
       ]
     },
     {
-      "key": "f800def454d897e4d903c63eca00829f",
-      "source": "Courier New",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 278,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "c574c9e9c4c8f40e140ebf8b99180701",
       "source": "CPU Cores",
       "contexts": [
@@ -4557,54 +4272,6 @@
               "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
               "line": 426,
               "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "ff174d64774d5421545e1b38ded8db2f",
-      "source": "Crab",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/draw.ts",
-              "line": 359,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 420,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 429,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 433,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 581,
-              "kind": "value-literal:call"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 673,
-              "kind": "value-literal:call"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 958,
-              "kind": "value-literal:logic"
             }
           ]
         }
@@ -4904,34 +4571,6 @@
       ]
     },
     {
-      "key": "a18366b217ebf811ad1886e4f4f865b2",
-      "source": "Dark",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 357,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 410,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/permissions.tsx",
-              "line": 359,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "cc768298713d411a8a832f04ef287fdb",
       "source": "Data Broker Auction",
       "contexts": [
@@ -5076,24 +4715,6 @@
       ]
     },
     {
-      "key": "424214945ba5615eca039bfe5d731c09",
-      "source": "Denmark",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 114,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "4d0efe56f32f5ff72d0bb04885418773",
       "source": "Dens Built",
       "contexts": [
@@ -5177,66 +4798,6 @@
             {
               "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
               "line": 432,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "b17643294746db2c28347877b72847e2",
-      "source": "Device Tier",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 287,
-              "kind": "value-literal:logic"
-            }
-          ]
-        },
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 176,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "3efefb2586548f4ae74fa1de6ad6d5c6",
-      "source": "Device Type",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 277,
-              "kind": "value-literal:logic"
-            }
-          ]
-        },
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 171,
               "kind": "data-field:label"
             }
           ]
@@ -5719,24 +5280,6 @@
       ]
     },
     {
-      "key": "e4a297a0f76119a442c2595ac040673e",
-      "source": "Edge",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 65,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "f93c2ff36478fc6860a3f07c2d405cc4",
       "source": "Educational simulation. Real per-sale prices for one person run from fractions of a cent up to roughly $0.50; these figures are illustrative, scaled by the same criteria (engagement, device, market, location, re-identifiability) that data brokers use.",
       "contexts": [
@@ -5939,29 +5482,6 @@
       ]
     },
     {
-      "key": "00d23a76e43b46dae9ec7aa9dcbebb32",
-      "source": "Enabled",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 363,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 458,
-              "kind": "value-literal:logic"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "b66ef86fcdf97877d86ce17682f18479",
       "source": "Enchanted Wand",
       "contexts": [
@@ -6010,24 +5530,6 @@
               "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
               "line": 695,
               "kind": "jsx-text-interpolated"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "78463a384a5aa4fad5fa73e2f506ecfc",
-      "source": "English",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 10,
-              "kind": "data-field:label"
             }
           ]
         }
@@ -6136,24 +5638,6 @@
               "file": "packages/modules/aura-farm/src/aura.ts",
               "line": 273,
               "kind": "data-field:lesson"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "de92bbe05815c4eb756acb5897baa99c",
-      "source": "Español",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 20,
-              "kind": "data-field:label"
             }
           ]
         }
@@ -6309,39 +5793,6 @@
       ]
     },
     {
-      "key": "94fbbf67e0c8cea8cbaff55287746f3e",
-      "source": "Explorer",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 72,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 107,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 291,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/behavior.ts",
-              "line": 126,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "87d02293a37ff25fb25f3f8f1f8eb8fd",
       "source": "Extended (dashed)",
       "contexts": [
@@ -6425,34 +5876,6 @@
             {
               "file": "packages/modules/goblin-mirror/src/inferences.ts",
               "line": 125,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "f46a9ff5c03d478e0ec773da3b214942",
-      "source": "Fast Scroller",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 70,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 107,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/behavior.ts",
-              "line": 121,
               "kind": "value-literal"
             }
           ]
@@ -6676,24 +6099,6 @@
       ]
     },
     {
-      "key": "763f7f1aec350cd1a46238d1d5c3c229",
-      "source": "Firefox",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 67,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "d916cc29cf1ef03264b111bd15660324",
       "source": "First Seen",
       "contexts": [
@@ -6897,24 +6302,6 @@
       ]
     },
     {
-      "key": "1c8fb6ae6497af7c153c5cb11e315071",
-      "source": "Français (Canada)",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 16,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "5ca414b890ecaaf69f9aa8d8de6a94ef",
       "source": "Free to use — no account, sign-up, login, or email required.",
       "contexts": [
@@ -6981,29 +6368,6 @@
               "file": "packages/modules/goblin-mirror/src/inferences.ts",
               "line": 162,
               "kind": "data-field:note"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "be4990aa4393c80dc49843107b3d6366",
-      "source": "Fry",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 407,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 532,
-              "kind": "value-literal:call"
             }
           ]
         }
@@ -7082,24 +6446,6 @@
       ]
     },
     {
-      "key": "96a7872564f8ba8cb1d2975a13bde360",
-      "source": "Garamond",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 291,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "ea9f1881279a97a59f479e8d0a8bc695",
       "source": "Garden",
       "contexts": [
@@ -7112,42 +6458,6 @@
               "file": "packages/modules/slug-fencing/src/titles.ts",
               "line": 46,
               "kind": "data-field:name"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "eada819634d0164c6a7547bdcc405033",
-      "source": "Georgia",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 279,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "d8b00929dec65d422303256336ada04f",
-      "source": "Germany",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 109,
-              "kind": "value-literal"
             }
           ]
         }
@@ -7256,24 +6566,6 @@
               "file": "packages/modules/musical-dna/src/music.ts",
               "line": 82,
               "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "22f8668bdf1828a12f975aa4a70b5aaa",
-      "source": "Go ahead. Touch the grass",
-      "contexts": [
-        {
-          "shape": "header",
-          "purpose": "heading text for a page or UI section",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
-              "line": 439,
-              "kind": "heading-text"
             }
           ]
         }
@@ -8041,24 +7333,6 @@
       ]
     },
     {
-      "key": "af3ce2da081f1fbc3acb7474ee6f0d5b",
-      "source": "Helvetica Neue",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 293,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "adbd9664900ee7c3496cc81a1751f70d",
       "source": "Here's what you just avoided handing over:",
       "contexts": [
@@ -8089,52 +7363,6 @@
               "file": "packages/modules/aura-farm/src/aura.ts",
               "line": 216,
               "kind": "data-field:name"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "7acdf85c69cc3c5305456a293524386e",
-      "source": "Hidden",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 247,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 344,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 427,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "ee99b2480fe324cad6fcbbe334b032d1",
-      "source": "Hidden by browser",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 122,
-              "kind": "data-field:value"
             }
           ]
         }
@@ -8215,36 +7443,6 @@
       ]
     },
     {
-      "key": "9db042cdbedaeab6a292b7adeafb23f6",
-      "source": "High-end",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 293,
-              "kind": "value-literal:logic"
-            }
-          ]
-        },
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 109,
-              "kind": "data-field:value"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "6e8b744de19914ca7c29e18de0844273",
       "source": "High-value ad market",
       "contexts": [
@@ -8257,39 +7455,6 @@
               "file": "packages/modules/goblin-mirror/src/valuation.ts",
               "line": 64,
               "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "bcb71b56363c0913ba82fe48200c2e5c",
-      "source": "Highly Unique",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 75,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 117,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 299,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 519,
-              "kind": "value-literal"
             }
           ]
         }
@@ -8548,24 +7713,6 @@
       ]
     },
     {
-      "key": "21f59b54f62b5b8b4bc0f63f0f617fc1",
-      "source": "Impact",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 283,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "a62aa0645c1320778c1d3e323d13b711",
       "source": "Inaudible ultrasonic beacons in ads that link your phone to your TV",
       "contexts": [
@@ -8744,24 +7891,6 @@
             {
               "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
               "line": 117,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "06e415f918c577f07328a52e24f75d43",
-      "source": "Ireland",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 116,
               "kind": "value-literal"
             }
           ]
@@ -9441,24 +8570,6 @@
       ]
     },
     {
-      "key": "edc9f0a5a5d57797bf68e37364743831",
-      "source": "Linux",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 78,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "c4825ea1e4276fe98181b5b575a023c0",
       "source": "Listen to your DNA",
       "contexts": [
@@ -9808,34 +8919,6 @@
       ]
     },
     {
-      "key": "3242698d7d5aec57dba2890244f01b4b",
-      "source": "Lurker",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 74,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 110,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/behavior.ts",
-              "line": 126,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "6a4dbc41d56d288fdcc6f6f2533f4694",
       "source": "Lv {level}",
       "contexts": [
@@ -9999,132 +9082,6 @@
               "file": "packages/modules/musical-dna/src/music.ts",
               "line": 154,
               "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "73a6052cb11da2706b72657fbad0bd7c",
-      "source": "Menlo",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 292,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "09d9067cbae1554eb6e6034f412dd610",
-      "source": "meta[name=\"description\"]",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/seo/RouteMeta.tsx",
-              "line": 44,
-              "kind": "value-literal:call"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "21b208f19b3dd497dcd42dc1e2431cf8",
-      "source": "meta[name=\"twitter:description\"]",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/seo/RouteMeta.tsx",
-              "line": 49,
-              "kind": "value-literal:call"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "709e5d527803cfe88d724afc5df30bf8",
-      "source": "meta[name=\"twitter:title\"]",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/seo/RouteMeta.tsx",
-              "line": 48,
-              "kind": "value-literal:call"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "f6d56e9b79c441db590c9165d70fa15f",
-      "source": "meta[property=\"og:description\"]",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/seo/RouteMeta.tsx",
-              "line": 46,
-              "kind": "value-literal:call"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "52c5ff348e2a9d073f0b3696498fbb44",
-      "source": "meta[property=\"og:title\"]",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/seo/RouteMeta.tsx",
-              "line": 45,
-              "kind": "value-literal:call"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "4b7a8f19444cc82ccdc90ae2bd6e54d3",
-      "source": "meta[property=\"og:url\"]",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/seo/RouteMeta.tsx",
-              "line": 47,
-              "kind": "value-literal:call"
             }
           ]
         }
@@ -10434,34 +9391,6 @@
       ]
     },
     {
-      "key": "1a7896434e8847a0cdc2b50685548b01",
-      "source": "Moderately Unique",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 76,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 118,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 521,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "6d4dfae94a85040c9c57a67eb7a91c91",
       "source": "Molten",
       "contexts": [
@@ -10491,39 +9420,6 @@
             {
               "file": "packages/modules/goblin-mirror/src/memory.ts",
               "line": 135,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "5c9a6b63a5f12b7d663214113e14fd24",
-      "source": "Moray eel",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/draw.ts",
-              "line": 387,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/draw.ts",
-              "line": 388,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 598,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 660,
               "kind": "value-literal"
             }
           ]
@@ -10811,24 +9707,6 @@
       ]
     },
     {
-      "key": "dea2dcc2d6d633e6a3d2a93ed23aa903",
-      "source": "Nederlands",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 11,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "ffb9356ff2b7da85c75c92fa7ea03b8b",
       "source": "Negative",
       "contexts": [
@@ -10865,24 +9743,6 @@
       ]
     },
     {
-      "key": "a67d4cbdd1b59e0ffccc6bafc83eb033",
-      "source": "Netherlands",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 112,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "e9bb5320b3890b6747c91b5a71ae5a01",
       "source": "Neutral",
       "contexts": [
@@ -10913,24 +9773,6 @@
               "file": "packages/modules/slug-fencing/src/screens.tsx",
               "line": 419,
               "kind": "button-text"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "c51ed580ea5e20c910d951f692512b4d",
-      "source": "New Zealand",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 115,
-              "kind": "value-literal"
             }
           ]
         }
@@ -11063,54 +9905,6 @@
       ]
     },
     {
-      "key": "6adf97f83acf6453d4a6a4b1070f3754",
-      "source": "None",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 180,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 42,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 78,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 107,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 122,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 194,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/permissions.tsx",
-              "line": 501,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "fde42827d1c952cb98d401d717059ce9",
       "source": "Nonpolar",
       "contexts": [
@@ -11123,42 +9917,6 @@
               "file": "packages/modules/musical-dna/src/music.ts",
               "line": 56,
               "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "d5b9290a0b67727d4ba1ca6059dc31a6",
-      "source": "Norway",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 111,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "7802c5c0f76a9f0cd41432e20f243ad7",
-      "source": "NotAllowedError",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/brainrot-button/src/BrainrotButtonPage.tsx",
-              "line": 303,
-              "kind": "value-literal:logic"
             }
           ]
         }
@@ -11362,24 +10120,6 @@
               "file": "packages/modules/life-of-an-octopus/src/LifeOfAnOctopusPage.tsx",
               "line": 397,
               "kind": "paragraph-text"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "a956e985535b8d57732d14dfa0e4c71a",
-      "source": "Opera",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 66,
-              "kind": "value-literal"
             }
           ]
         }
@@ -11626,24 +10366,6 @@
               "file": "packages/modules/potato-painter/src/PotatoPainterPage.tsx",
               "line": 277,
               "kind": "heading-text"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "5d1a5b358cb957d0d89ff084fa13e7b3",
-      "source": "Palatino Linotype",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 286,
-              "kind": "value-literal"
             }
           ]
         }
@@ -12099,24 +10821,6 @@
       ]
     },
     {
-      "key": "d0033788e612a4e0646c261eba804fb6",
-      "source": "Polski",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 18,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "c7343b62a23769218f9619b913874665",
       "source": "POP. An egg?! You squeezed an entire egg out of the chicken.",
       "contexts": [
@@ -12147,24 +10851,6 @@
               "file": "packages/modules/pushy-paws/src/PushyPawsPage.tsx",
               "line": 155,
               "kind": "data-field:short"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "c91e897d4a005988919e50f5247c9aed",
-      "source": "Português (Brasil)",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 21,
-              "kind": "data-field:label"
             }
           ]
         }
@@ -12507,36 +11193,6 @@
               "file": "packages/modules/life-of-an-octopus/src/LifeOfAnOctopusPage.tsx",
               "line": 46,
               "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "207c99352e5189147901d91978de70eb",
-      "source": "Probable Country",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 285,
-              "kind": "value-literal:logic"
-            }
-          ]
-        },
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 165,
-              "kind": "data-field:label"
             }
           ]
         }
@@ -13494,36 +12150,6 @@
       ]
     },
     {
-      "key": "f2b9efd43863f63d6b538c40139af45b",
-      "source": "Rough Location",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 279,
-              "kind": "value-literal:logic"
-            }
-          ]
-        },
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 159,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "f82bf9f88605f40882a74f5159bcc9d6",
       "source": "Roughly 1 in {value0} people share a device profile like yours ({value1} bits of entropy).",
       "contexts": [
@@ -13643,24 +12269,6 @@
             {
               "file": "packages/modules/musical-dna/src/music.ts",
               "line": 262,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "50de9bc68c93dc32d8c7c90593471760",
-      "source": "Safari",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 69,
               "kind": "value-literal"
             }
           ]
@@ -14094,24 +12702,6 @@
       ]
     },
     {
-      "key": "5664e732f82e7d7cc662c9a9fa8eeb7a",
-      "source": "Segoe UI",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 287,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "b0a4ae56988af400b0f10a5dc5af386b",
       "source": "Selenocysteine (Sec)",
       "contexts": [
@@ -14292,24 +12882,6 @@
       ]
     },
     {
-      "key": "ea89b68c34ce4a63c0f77e17413c6e30",
-      "source": "Shell",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 591,
-              "kind": "value-literal:call"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "ee110d5442ab2aa985b97a2ba099b289",
       "source": "Should I take the leap?",
       "contexts": [
@@ -14340,29 +12912,6 @@
               "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
               "line": 409,
               "kind": "value-interpolated"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "2f2e1847f0dbddd2a94ddf9b8823390e",
-      "source": "Shrimp",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 577,
-              "kind": "value-literal:call"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 668,
-              "kind": "value-literal:call"
             }
           ]
         }
@@ -14457,29 +13006,6 @@
             {
               "file": "packages/modules/slug-fencing/src/titles.ts",
               "line": 7,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "ff4fdf8ae968a8ba117367632fb6cac1",
-      "source": "Silent Lurker",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 67,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 110,
               "kind": "value-literal"
             }
           ]
@@ -14647,39 +13173,6 @@
             {
               "file": "packages/modules/slug-fencing/src/screens.tsx",
               "line": 339,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "117c341e0fb8004bf025f258235417dc",
-      "source": "Small shark",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/draw.ts",
-              "line": 387,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 568,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 599,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 661,
               "kind": "value-literal"
             }
           ]
@@ -15578,24 +14071,6 @@
       ]
     },
     {
-      "key": "905bd3465e945f776a704e98677a09d8",
-      "source": "Svenska",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 22,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "70d8dbd167eec8d08729460d8db753da",
       "source": "Swap direction",
       "contexts": [
@@ -15632,24 +14107,6 @@
       ]
     },
     {
-      "key": "c8f4261f9f46e6465709e17ebea7a92b",
-      "source": "Sweden",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 113,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "65a730710a283f0dd365db8e00b5b1cd",
       "source": "Sweet Potato",
       "contexts": [
@@ -15668,24 +14125,6 @@
       ]
     },
     {
-      "key": "3ad08396dc5afa78f34f548eea3c1d64",
-      "source": "Switzerland",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 110,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "36384a9ea3ec791e6bd4ab6b36f2ff2a",
       "source": "Tablet",
       "contexts": [
@@ -15698,24 +14137,6 @@
               "file": "packages/modules/goblin-mirror/src/inferences.ts",
               "line": 97,
               "kind": "data-field:value"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "2bd141ae2a8e92e3cdd9163089ec8924",
-      "source": "Tahoma",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 285,
-              "kind": "value-literal"
             }
           ]
         }
@@ -16802,24 +15223,6 @@
       ]
     },
     {
-      "key": "8900726a3d038004964c7b84cf59be8d",
-      "source": "Times New Roman",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 280,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "236df51bb0e6416236e255b528346fca",
       "source": "Timezone",
       "contexts": [
@@ -16994,119 +15397,6 @@
       ]
     },
     {
-      "key": "f0f31c9700c6b10d8a20dc487b2ae6a8",
-      "source": "Touch",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 345,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 446,
-              "kind": "value-literal:logic"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "101507f9f0c167fe15518d77f2ab81b4",
-      "source": "Touch device",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 100,
-              "kind": "data-field:value"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "c9bf947730af2c9c78ef334b3660a2d0",
-      "source": "Touch Grass",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/touch-grass/src/manifest.ts",
-              "line": 5,
-              "kind": "data-field:title"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "b18fbd2bc4fb455545c0901d654315ee",
-      "source": "Touch Style",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 559,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "2e57552ac1759f81608d0b2f3cdfc770",
-      "source": "Touches",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position, applied at runtime by the DOM injector",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
-              "line": 515,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "7347e516bbd70d2d183e23be6e0b780b",
-      "source": "Touches: <0>{touches}</0>",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "body copy shown in the user interface",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
-              "line": 514,
-              "kind": "span-text-rich"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "fe2d6a81009a51999ef5792958707bc9",
       "source": "Track which alerts you click to profile what lures you back",
       "contexts": [
@@ -17244,24 +15534,6 @@
             {
               "file": "packages/modules/emoji-translator/src/EmojiTranslatorPage.tsx",
               "line": 221,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "720661ecef8eaa75b0d48a938bff3404",
-      "source": "Trebuchet MS",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 284,
               "kind": "value-literal"
             }
           ]
@@ -17508,117 +15780,6 @@
       ]
     },
     {
-      "key": "89f9c9f489be2a83cf57e53b9197d288",
-      "source": "United Kingdom",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 106,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "f253efe302d32ab264a76e0ce65be769",
-      "source": "United States",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 105,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "88183b946cc5f0e8c96b2e66e1c74a7e",
-      "source": "Unknown",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
-              "line": 275,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 70,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 79,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 84,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 86,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 355,
-              "kind": "value-literal"
-            }
-          ]
-        },
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 42,
-              "kind": "data-field:value"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 78,
-              "kind": "data-field:value"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 86,
-              "kind": "data-field:value"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 90,
-              "kind": "data-field:value"
-            },
-            {
-              "file": "packages/modules/goblin-mirror/src/inferences.ts",
-              "line": 107,
-              "kind": "data-field:value"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "ec5e923601015a886bb6df54f06dea64",
       "source": "Unmute sound effects",
       "contexts": [
@@ -17709,24 +15870,6 @@
       ]
     },
     {
-      "key": "9234324ddf6b4176b57d803a925b7961",
-      "source": "UTC",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 151,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "38b2dd8789fba928d792949edc7aaf2a",
       "source": "Valine",
       "contexts": [
@@ -17756,24 +15899,6 @@
             {
               "file": "packages/modules/musical-dna/src/music.ts",
               "line": 250,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "207c321933d5e7273bf3defb9eca01af",
-      "source": "Verdana",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 281,
               "kind": "value-literal"
             }
           ]
@@ -18259,24 +16384,6 @@
             {
               "file": "packages/modules/commune-with-god/src/CommuneWithGodPage.tsx",
               "line": 23,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "aea23489ce3aa9b6406ebb28e0cda430",
-      "source": "Windows",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/fingerprint.ts",
-              "line": 74,
               "kind": "value-literal"
             }
           ]
@@ -18908,60 +17015,6 @@
               "file": "packages/modules/potato-painter/src/potato.ts",
               "line": 31,
               "kind": "data-field:name"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "a5c072fa947c0f5677a599b14f3fd48c",
-      "source": "Русский",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 19,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "e1c319e56cddb033e36ac4c1c92fc996",
-      "source": "Українська",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 23,
-              "kind": "data-field:label"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "450e0a7004f052c5cacb05548a10bedf",
-      "source": "हिन्दी",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 17,
-              "kind": "data-field:label"
             }
           ]
         }

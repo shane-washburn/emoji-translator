@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
-import { HedgelingProvider } from "../vendor/hedgeling-i18n/dist/runtime/index.js";
+import { HedgelingProvider } from "@hedgeling/i18n/runtime";
 import App from "./App";
 import "./index.css";
 

@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@hedgeling/i18n':
+        specifier: ^0.1.1
+        version: 0.1.2(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))
       concurrently:
         specifier: ^9.0.1
         version: 9.2.1
@@ -1001,6 +1004,18 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@hedgeling/i18n@0.1.2':
+    resolution: {integrity: sha512-9kFAxd01+N613PenCPETcLHgGohTGmy8NLTkCKGvvHGk+Jq1irFLmznMGeZgpgwcWtvD75J6pZjRAU6WTY60Lw==}
+    hasBin: true
+    peerDependencies:
+      react: '>=17'
+      vite: '>=4'
+    peerDependenciesMeta:
+      react:
+        optional: true
+      vite:
+        optional: true
 
   '@hono/node-server@1.19.14':
     resolution: {integrity: sha512-GwtvgtXxnWsucXvbQXkRgqksiH2Qed37H9xHZocE5sA3N8O8O8/8FA3uclQXxXVzc9XBZuEOMK7+r02FmSpHtw==}
@@ -2321,6 +2336,13 @@ snapshots:
 
   '@esbuild/win32-x64@0.28.1':
     optional: true
+
+  '@hedgeling/i18n@0.1.2(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))':
+    dependencies:
+      typescript: 5.9.3
+    optionalDependencies:
+      react: 18.3.1
+      vite: 5.4.21(@types/node@22.19.21)
 
   '@hono/node-server@1.19.14(hono@4.12.25)':
     dependencies:

@@ -15,6 +15,7 @@ import {
   Trash2,
 } from "lucide-react";
 import { Card, ShareButton, trackStat } from "@scroll-goblin/ui";
+import { t } from "@hedgeling/i18n/runtime";
 import {
   collectFingerprint,
   formatOneInN,
@@ -84,9 +85,9 @@ export const GOBLIN_MIRROR_SOURCE_LABELS = [
   "erased",
   "Just now",
   "Earlier today",
-  "{count} hours ago",
+  "{count, plural, one {# hour ago} other {# hours ago}}",
   "1 day ago",
-  "{count} days ago",
+  "{count, plural, one {# day ago} other {# days ago}}",
   "{hours}h {minutes}m",
   "{minutes}m {seconds}s",
   "{seconds}s",
@@ -119,6 +120,10 @@ function ratingFor(fp: Fingerprint): string {
   return "Refreshingly Forgettable";
 }
 
+function displayLabel(value: string): string {
+  return t(value);
+}
+
 /** A labeled stat tile used throughout the report. */
 function Stat({ label, value }: { label: string; value: React.ReactNode }) {
     return (
@@ -144,7 +149,9 @@ function SignalStat({ signal }: { signal: FingerprintSignal }) {
     const r = signalRarity(signal.share);
   return (
     <div
-      title={`Adds ~${signal.bits.toFixed(1)} bits of uniqueness`}
+      title={t("{bits, plural, one {Adds ~# bit of uniqueness} other {Adds ~# bits of uniqueness}}", {
+        bits: Number(signal.bits.toFixed(1)),
+      })}
       className="rounded-neobrutal border-thin border-brand-border bg-brand-surface px-3 py-2"
     >
       <div className="flex items-center justify-between gap-1">
@@ -154,12 +161,12 @@ function SignalStat({ signal }: { signal: FingerprintSignal }) {
         <span
           className={`shrink-0 rounded-neobrutal border-thin border-brand-border px-1 py-0.5 text-[0.5rem] font-bold uppercase tracking-wide ${r.className}`}
         >
-          {r.label}
+          {displayLabel(r.label)}
         </span>
       </div>
       <div className="break-words font-bold text-brand-text">{signal.value}</div>
       <div className="mt-0.5 text-[0.6rem] font-bold text-brand-text/50">
-        {`Matches ~${formatShare(signal.share)} of people`}
+        {t("Matches ~{share} of people", { share: formatShare(signal.share) })}
       </div>
     </div>
   );
@@ -172,14 +179,19 @@ const CONFIDENCE_STYLE: Record<Confidence, string> = {
   None: "bg-brand-surface",
 };
 
+const CONFIDENCE_LABEL: Record<Confidence, string> = {
+  High: "High confidence",
+  Medium: "Medium confidence",
+  Low: "Low confidence",
+  None: "Can't tell",
+};
+
 function ConfidenceBadge({ confidence }: { confidence: Confidence }) {
-    return (
+  return (
     <span
       className={`inline-block rounded-neobrutal border-thin border-brand-border px-1.5 py-0.5 text-[0.6rem] font-bold uppercase tracking-wide ${CONFIDENCE_STYLE[confidence]}`}
     >
-      {confidence === "None"
-        ? "Can't tell"
-        : `${confidence} confidence`}
+      {t(CONFIDENCE_LABEL[confidence])}
     </span>
   );
 }
@@ -319,10 +331,10 @@ export default function GoblinMirrorPage() {
 
   const shareState: ShareState = {
     hash: fp.hash,
-    rarity: fp.rarity,
+    rarity: displayLabel(fp.rarity),
     oneInN: fp.oneInN,
-    archetype,
-    rating,
+    archetype: displayLabel(archetype),
+    rating: displayLabel(rating),
     value: valueRange,
   };
 
@@ -334,10 +346,10 @@ export default function GoblinMirrorPage() {
       const hours = Math.floor(diff / (60 * 60 * 1000));
       return hours <= 1
         ? "Earlier today"
-        : `${hours} hours ago`;
+        : t("{hours, plural, one {# hour ago} other {# hours ago}}", { hours });
     }
     const days = Math.floor(diff / (24 * 60 * 60 * 1000));
-    return days === 1 ? "1 day ago" : `${days} days ago`;
+    return t("{days, plural, one {# day ago} other {# days ago}}", { days });
   };
 
   const durationLabel = (ms: number) => {
@@ -406,7 +418,10 @@ export default function GoblinMirrorPage() {
                 />
                 {showTechnical
                   ? "Hide technical signals"
-                  : `Show the ${technicalSignals.length} technical signals the Goblin also used`}
+                  : t(
+                      "{length, plural, one {Show the # technical signal the Goblin also used} other {Show the # technical signals the Goblin also used}}",
+                      { length: technicalSignals.length },
+                    )}
               </button>
               {showTechnical && (
                 <>
@@ -436,7 +451,10 @@ export default function GoblinMirrorPage() {
                 </code>
               </div>
               <p className="mt-2 text-xs italic text-brand-text/50">
-                {`This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all ${fp.signals.length} signals above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.`}
+                {t(
+                  "{length, plural, one {This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all # signal above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.} other {This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all # signals above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.}}",
+                  { length: fp.signals.length },
+                )}
               </p>
             </Card>
 
@@ -482,7 +500,11 @@ export default function GoblinMirrorPage() {
                   />
                   <Stat
                     label="Storage Status"
-                    value={memory.hasLocalStorage ? "Active" : "Empty"}
+                    value={
+                      memory.hasLocalStorage
+                        ? displayLabel("Active")
+                        : displayLabel("Empty")
+                    }
                   />
                 </div>
                 <p className="mt-3 text-sm text-brand-text/70">
@@ -554,14 +576,14 @@ export default function GoblinMirrorPage() {
               />
               <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
                 <Stat label="Session" value={formatSessionClock(behavior.sessionSeconds)} />
-                <Stat label="Scroll Style" value={behavior.scrollStyle} />
+                <Stat label="Scroll Style" value={displayLabel(behavior.scrollStyle)} />
                 <Stat
                   label={behavior.touch ? "Touch Style" : "Mouse Style"}
-                  value={behavior.interactionStyle}
+                  value={displayLabel(behavior.interactionStyle)}
                 />
                 <Stat label="Clicks / Taps" value={String(behavior.clicks)} />
                 <Stat label="Idle Periods" value={String(behavior.idlePeriods)} />
-                <Stat label="Archetype" value={archetype} />
+                <Stat label="Archetype" value={displayLabel(archetype)} />
               </div>
               <p className="mt-3 text-sm text-brand-text/70">
                 {"Websites infer who you are from behavior alone — no name required. These metrics update live."}
@@ -635,7 +657,7 @@ export default function GoblinMirrorPage() {
                     key={c.label}
                     className="flex items-center justify-between rounded-neobrutal border-thin border-brand-border bg-brand-surface px-3 py-1.5 text-sm"
                   >
-                    <span className="text-brand-text/80">{c.label}</span>
+                    <span className="text-brand-text/80">{displayLabel(c.label)}</span>
                     <span className="font-bold text-brand-text">
                       +{formatCents(c.lowCents)}–{formatCents(c.highCents)}
                     </span>
@@ -671,7 +693,7 @@ export default function GoblinMirrorPage() {
                   <div className="mb-1 text-sm font-bold text-brand-text">
                     {"What I Know"}
                   </div>
-                  <ul className="list-disc pl-5 text-sm text-brand-text/80">
+                  <ul className="list-disc ps-5 text-sm text-brand-text/80">
                     <li>{"Browser, OS, screen & GPU"}</li>
                     <li>{"Timezone & language"}</li>
                     <li>{`Session length: ${formatSessionClock(behavior.sessionSeconds)}`}</li>
@@ -681,27 +703,53 @@ export default function GoblinMirrorPage() {
                   <div className="mb-1 text-sm font-bold text-brand-text">
                     {"What I Remember"}
                   </div>
-                  <ul className="list-disc pl-5 text-sm text-brand-text/80">
-                    <li>{`Cookies: ${cookiesWiped ? "erased" : `${memory.visits} visits`}`}</li>
-                    <li>{`Local Storage: ${lsWiped ? "erased" : "active"}`}</li>
-                    <li>{`Fingerprint: #${fp.hash} (survives wipes)`}</li>
+                  <ul className="list-disc ps-5 text-sm text-brand-text/80">
+                    <li>
+                      {cookiesWiped
+                        ? t("Cookies: erased")
+                        : t("Cookies: {visits, plural, one {# visit} other {# visits}}", {
+                            visits: memory.visits,
+                          })}
+                    </li>
+                    <li>
+                      {lsWiped
+                        ? t("Local Storage: erased")
+                        : t("Local Storage: active")}
+                    </li>
+                    <li>
+                      {t("Fingerprint: {hash} (survives wipes)", {
+                        hash: `#${fp.hash}`,
+                      })}
+                    </li>
                   </ul>
                 </div>
                 <div>
                   <div className="mb-1 text-sm font-bold text-brand-text">
                     {"What I Inferred"}
                   </div>
-                  <ul className="list-disc pl-5 text-sm text-brand-text/80">
-                    <li>{`Engagement: ${behavior.interactionStyle}`}</li>
-                    <li>{`Reading style: ${behavior.scrollStyle}`}</li>
-                    <li>{`Archetype: ${archetype}`}</li>
+                  <ul className="list-disc ps-5 text-sm text-brand-text/80">
+                    <li>
+                      {t("Engagement: {style}", {
+                        style: displayLabel(behavior.interactionStyle),
+                      })}
+                    </li>
+                    <li>
+                      {t("Reading style: {style}", {
+                        style: displayLabel(behavior.scrollStyle),
+                      })}
+                    </li>
+                    <li>
+                      {t("Archetype: {archetype}", {
+                        archetype: displayLabel(archetype),
+                      })}
+                    </li>
                   </ul>
                 </div>
                 <div>
                   <div className="mb-1 flex items-center gap-1 text-sm font-bold text-brand-text">
                     <Lock className="h-4 w-4" /> {"What I Don't Know"}
                   </div>
-                  <ul className="list-disc pl-5 text-sm text-brand-text/80">
+                  <ul className="list-disc ps-5 text-sm text-brand-text/80">
                     <li>{"Your name"}</li>
                     <li>{"Your income"}</li>
                     <li>{"Your passwords or messages"}</li>
@@ -720,7 +768,7 @@ export default function GoblinMirrorPage() {
                     label="Tracking Resistance"
                     value={bothWiped ? "Tried & Failed" : "Untested"}
                   />
-                  <Stat label="Goblin Rating" value={rating} />
+                  <Stat label="Goblin Rating" value={displayLabel(rating)} />
                   <Stat label="Est. Data Value" value={valueRange} />
                   <Stat label="Specimen ID" value={`#${fp.hash}`} />
                 </div>

@@ -167,7 +167,7 @@ export function SoloSetupScreen({
               <button
                 key={d}
                 onClick={() => setDifficulty(d)}
-                className={`rounded-neobrutal border-thin border-brand-border p-3 text-left shadow-neo-sm transition-[transform,box-shadow] duration-100 active:translate-x-0.5 active:translate-y-0.5 active:shadow-neo-pressed ${
+                className={`rounded-neobrutal border-thin border-brand-border p-3 text-start shadow-neo-sm transition-[transform,box-shadow] duration-100 active:translate-x-0.5 active:translate-y-0.5 active:shadow-neo-pressed ${
                   active ? "bg-brand-warning" : "bg-brand-background"
                 }`}
               >

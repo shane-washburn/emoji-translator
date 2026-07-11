@@ -490,7 +490,7 @@ function CandyConfetti() {
           key={`${candy}-${index}`}
           className="absolute animate-[pushy-candy-fall_3800ms_cubic-bezier(.16,.68,.24,1)_infinite] text-4xl saturate-150 drop-shadow-[0_3px_0_#ffffff] sm:text-5xl"
           style={{
-            left: `${(index * 37) % 100}%`,
+            insetInlineStart: `${(index * 37) % 100}%`,
             animationDelay: `-${240 + (index % 8) * 430}ms`,
             animationDuration: `${3300 + (index % 5) * 360}ms`,
             transform: `rotate(${index * 23}deg)`,
@@ -878,9 +878,9 @@ export default function PushyPawsPage() {
         className={`relative min-h-[430px] overflow-hidden rounded-neobrutal border-thick border-brand-border bg-[#dff3ff] shadow-neo-lg sm:min-h-[520px] ${shake ? "brainrot-expired-alert" : ""}`}
       >
         <div className="absolute inset-0 bg-[linear-gradient(#ffffff_1px,transparent_1px),linear-gradient(90deg,#ffffff_1px,transparent_1px)] bg-[size:42px_42px] opacity-35" />
-        <div className="absolute left-0 right-0 top-6 h-20 bg-[#fef3c7] shadow-[0_6px_0_#111827] sm:top-10 sm:h-24" />
-        <div className="absolute left-0 right-0 top-[186px] h-12 border-y-thick border-brand-border bg-[#b7794f] sm:top-[216px] sm:h-14" />
-        <div className="absolute left-0 right-0 top-[228px] h-8 bg-[#7c4a32] sm:top-[264px] sm:h-9" />
+        <div className="absolute start-0 end-0 top-6 h-20 bg-[#fef3c7] shadow-[0_6px_0_#111827] sm:top-10 sm:h-24" />
+        <div className="absolute start-0 end-0 top-[186px] h-12 border-y-thick border-brand-border bg-[#b7794f] sm:top-[216px] sm:h-14" />
+        <div className="absolute start-0 end-0 top-[228px] h-8 bg-[#7c4a32] sm:top-[264px] sm:h-9" />
 
         <button
           key={item.nonce}
@@ -894,7 +894,7 @@ export default function PushyPawsPage() {
             item.falling ? "pointer-events-none animate-[pushy-fall_760ms_ease-in_forwards]" : "hover:scale-105 active:scale-95"
           }`}
           style={{
-            left: `${item.x + progressPct * 0.12}%`,
+            insetInlineStart: `${item.x + progressPct * 0.12}%`,
             transform: `translate(-50%, -50%) rotate(${progressPct / 5}deg)`,
           }}
           aria-label={`Swat ${item.name}`}
@@ -902,12 +902,12 @@ export default function PushyPawsPage() {
           <ItemArt item={item} governmentLabel={"Government"} />
         </button>
 
-        <div className="absolute left-[-24px] top-[16px] z-30 h-[210px] w-[235px] sm:left-[-10px] sm:top-[24px] sm:h-[275px] sm:w-[340px]">
+        <div className="absolute start-[-24px] top-[16px] z-30 h-[210px] w-[235px] sm:start-[-10px] sm:top-[24px] sm:h-[275px] sm:w-[340px]">
           <Cat level={level} pawing={pawing} victory={won} />
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0 h-12 border-t-thick border-brand-border bg-[#5b3a29] sm:h-16" />
-        <div className="absolute bottom-3 right-2 z-40 w-[min(82vw,350px)] sm:bottom-4 sm:right-4 sm:w-[390px]">
+        <div className="absolute bottom-0 start-0 end-0 h-12 border-t-thick border-brand-border bg-[#5b3a29] sm:h-16" />
+        <div className="absolute bottom-3 end-2 z-40 w-[min(82vw,350px)] sm:bottom-4 sm:end-4 sm:w-[390px]">
           <Card className="bg-brand-background/95 p-2.5 sm:p-4">
             <div className="flex items-start justify-between gap-3">
               <div className="min-w-0">
@@ -938,7 +938,7 @@ export default function PushyPawsPage() {
           <>
             <CandyConfetti />
             <div className="absolute inset-0 z-50 bg-brand-text/10">
-              <Card className="absolute bottom-3 right-2 w-[min(82vw,350px)] bg-brand-background p-5 text-center shadow-neo-lg sm:bottom-4 sm:right-4 sm:w-[390px]">
+              <Card className="absolute bottom-3 end-2 w-[min(82vw,350px)] bg-brand-background p-5 text-center shadow-neo-lg sm:bottom-4 sm:end-4 sm:w-[390px]">
                 <p className="font-heading text-3xl uppercase leading-none text-brand-text sm:text-4xl">
                   {"You win"}
                 </p>

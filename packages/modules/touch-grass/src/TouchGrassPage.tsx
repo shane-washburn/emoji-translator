@@ -208,7 +208,7 @@ export default function TouchGrassPage() {
           for (let d = 0; d < 2; d++) {
             const drop = document.createElement("span");
             const dropX = p.x + (Math.random() - 0.5) * 44;
-            drop.style.cssText = `position:absolute;left:${dropX}px;top:${p.y}px;width:3px;height:9px;border-radius:9999px;background:rgba(59,130,246,0.65);pointer-events:none;`;
+            drop.style.cssText = `position:absolute;inset-inline-start:${dropX}px;top:${p.y}px;width:3px;height:9px;border-radius:9999px;background:rgba(59,130,246,0.65);pointer-events:none;`;
             field.appendChild(drop);
             drop
               .animate(
@@ -416,7 +416,7 @@ export default function TouchGrassPage() {
     // A little leaf pops out where the blade was plucked.
     const pop = document.createElement("span");
     pop.textContent = "🌿";
-    pop.style.cssText = `position:absolute;left:${blade.x * 100}%;bottom:${blade.h}px;font-size:20px;pointer-events:none;`;
+    pop.style.cssText = `position:absolute;inset-inline-start:${blade.x * 100}%;bottom:${blade.h}px;font-size:20px;pointer-events:none;`;
     field.appendChild(pop);
     pop
       .animate(
@@ -487,7 +487,7 @@ export default function TouchGrassPage() {
           className="relative h-80 w-full cursor-pointer touch-none select-none overflow-hidden bg-gradient-to-b from-brand-secondary via-white to-brand-primary"
         >
           {/* Sun */}
-          <div className="absolute right-8 top-6 h-14 w-14 rounded-full border-thick border-brand-border bg-brand-warning shadow-neo-md" />
+          <div className="absolute end-8 top-6 h-14 w-14 rounded-full border-thick border-brand-border bg-brand-warning shadow-neo-md" />
 
           {/* Ground */}
           <div className="absolute bottom-0 h-10 w-full border-t-thick border-brand-border bg-brand-primary" />
@@ -499,7 +499,7 @@ export default function TouchGrassPage() {
               ref={(el) => (bladeEls.current[i] = el)}
               className="absolute bottom-0 origin-bottom rounded-t-full will-change-transform"
               style={{
-                left: `${b.x * 100}%`,
+                insetInlineStart: `${b.x * 100}%`,
                 width: b.w,
                 height: b.h,
                 background: `linear-gradient(to top, hsl(${b.hue}, 55%, 30%), hsl(${b.hue}, 65%, 45%))`,

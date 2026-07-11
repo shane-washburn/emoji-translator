@@ -86,7 +86,7 @@ export default function Landing() {
               <h2 className="font-heading text-2xl uppercase leading-none text-brand-text">
                 {m.title}
                 {m.status === "beta" && (
-                  <span className="ml-2 inline-block rounded-neobrutal border-thin border-brand-border bg-brand-background px-2 py-0.5 align-middle font-body text-[10px] font-bold uppercase shadow-neo-sm">
+                  <span className="ms-2 inline-block rounded-neobrutal border-thin border-brand-border bg-brand-background px-2 py-0.5 align-middle font-body text-[10px] font-bold uppercase shadow-neo-sm">
                     {"Beta"}
                   </span>
                 )}

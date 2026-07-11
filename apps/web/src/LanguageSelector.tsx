@@ -19,6 +19,7 @@ const LANGUAGES = [
   { code: "ru-RU", label: "Русский" },
   { code: "es-ES", label: "Español" },
   { code: "pt-BR", label: "Português (Brasil)" },
+  { code: "ar-SA", label: "العربية" },
   { code: "sv-SE", label: "Svenska" },
   { code: "uk-UA", label: "Українська" },
 ] as const;
@@ -76,7 +77,7 @@ export function LanguageSelector() {
         <div
           role="menu"
           aria-label="Languages"
-          className="absolute right-0 top-full mt-2 w-48 overflow-hidden rounded-neobrutal border-thin border-brand-border bg-brand-surface shadow-neo"
+          className="absolute end-0 top-full mt-2 w-48 overflow-hidden rounded-neobrutal border-thin border-brand-border bg-brand-surface shadow-neo"
         >
           {LANGUAGES.map((language) => {
             const isSelected = language.code === selected;
@@ -87,10 +88,12 @@ export function LanguageSelector() {
                 role="menuitemradio"
                 aria-checked={isSelected}
                 lang={language.code}
-                className="flex w-full items-center justify-between gap-3 border-b-thin border-brand-border px-3 py-2 text-left text-xs font-bold text-brand-text last:border-b-0 hover:bg-brand-warning"
+                translate="no"
+                data-hl-skip
+                className="flex w-full items-center justify-between gap-3 border-b-thin border-brand-border px-3 py-2 text-start text-xs font-bold text-brand-text last:border-b-0 hover:bg-brand-warning"
                 onClick={() => choose(language.code)}
               >
-                <span>{language.label}</span>
+                <span translate="no" data-hl-skip>{language.label}</span>
                 {isSelected ? <Check className="h-3.5 w-3.5" /> : null}
               </button>
             );

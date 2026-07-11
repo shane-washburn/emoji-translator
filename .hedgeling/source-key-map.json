@@ -1,44 +1,43 @@
 {
+  "schemaVersion": 1,
   "bySource": {
     "…or type / paste here (your name works too — non-amino letters are dropped)": "f4078ba042990272cc8678168e4ed1d0",
-    "(survives wipes)": "e692b9338cb9c4abff34312840831bec",
     "(tap a discovered dance to perform it)": "3a775becc383bb9a75b3f675e8b82095",
+    "{bits, plural, one {Adds ~# bit of uniqueness} other {Adds ~# bits of uniqueness}}": "517e69103e99eb77f7507702052d82ac",
     "{colorDepth}-bit": "086860ad482a55ffe111a8c43c0fbfb8",
-    "{confidence} confidence": "3b7302fcec725b3990cc19c5058f1058",
-    "{count} days ago": "6bb22e33c324c19fd57057914c09a9e7",
-    "{count} hours ago": "a730696d895bc05affab0931516c4df1",
-    "{days} days ago": "21040be428d3d917781bf3623fc15282",
+    "{count, plural, one {# day ago} other {# days ago}}": "da963a721187adf5a22f3add2d49dc09",
+    "{count, plural, one {# hour ago} other {# hours ago}}": "1d4cbb2e5aa03de9aa4b3c48fd7e748b",
+    "{days, plural, one {# day ago} other {# days ago}}": "ebc48f7cb0c0a9e17cb257ad2d537663",
     "{h}h {m}m": "32e6dc3e300b8fe9129c83066d522129",
-    "{hours} hours ago": "9caad9900751c93ff1ac7154cd6ed975",
+    "{hours, plural, one {# hour ago} other {# hours ago}}": "890317699a7ef8d9ea12d1ea4533fa01",
     "{hours}h {minutes}m": "6dc97c87386c949982eedd564c6c59ed",
+    "{length, plural, one {Show the # technical signal the Goblin also used} other {Show the # technical signals the Goblin also used}}": "8827c2ba68b14484def8b620ace1e28b",
+    "{length, plural, one {This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all # signal above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.} other {This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all # signals above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.}}": "cedece42c337e7f2a8b4283956dba13c",
     "{length}/{value0} detected": "07f1540058e4cf59ff0dcbb23f5535f0",
     "{m}m {s}s": "aee6baed3243396557d43cd622d7ec87",
-    "{m}m {value0}s": "4272fd6913f4d6a4bb8d1854d3882141",
     "{mem} GB": "ce9ac1f5bae28b43de913b71b91ee302",
     "{minutes}m {seconds}s": "a6a906d8a5a1c22823a49d4b73a32686",
     "{name} leaves the shelf.": "b4c2acfd9dfca17023368cbd3b0d3859",
-    "{noteCount} notes": "415d8fb558bc053847651eda8ef60898",
+    "{noteCount, plural, one {# note} other {# notes}}": "d4b921dcb0dffbaf0f440e46f9be81ca",
     "{points} chaos": "49675203d01609f0accd2a5a9f2c7130",
     "{pushLabel} / weight {weight}": "d5a7dbc5d94486da5be9f29eddaca3a2",
     "{recordingSeconds}s / 10s": "033e913de88bb54a485901b2555a81fe",
     "{region} (near {city})": "d67b8970c9fcf6053ad8512e97658152",
     "{screenRes} @ {pixelRatio}x": "e1443cd3c7213a6c92bfe1edcfd6c88a",
+    "{seconds}s": "5863d63d1319d13645a4a028420ec253",
     "{short} scoots closer to doom.": "66dd5c908ed28a5d3260980df1d5cdb9",
     "{size}/{total} unlocked": "a448790e8f67256a9122edd3fd1df791",
     "{speed} · Data Saver on": "ee21bb888836710d639502e160ecf59a",
     "{tempo} BPM": "f7b2e59ada25f957a9f6261ff1614c42",
-    "{touch} ({touchPoints} pts)": "0b6c8aeeef3615c811152bf3e6b0389f",
+    "{touch} ({touchPoints, plural, one {# pt} other {# pts}})": "f2d2196944e117956177020f196b20dc",
     "{value0} billion": "93e4d3cd9f3c27b91088aa6929e2cdf7",
     "{value0} captured": "9f5610e5e6e81e99d6ca01630ca06a52",
     "{value0} million": "ccda2ef165bb05b9cf7613b33e2133b2",
     "{value0}KB": "d8fd9583772eec0332f7a769a9788aa2",
-    "{visits} visits": "368127c373e83d8953ffb94c4292f142",
     "← Back": "fa9309cd5ba2f89ef8590aa88cbc9579",
     "+{points} chaos": "6067b1ebfa68b4e474b849e585208c93",
+    "+{value0} Aura": "dec78c9c3b837e4bd56119de60b85e59",
     "+1 point!": "a8fbe40cf3123798cf862820ec6657f9",
-    "<0></0> <1></1> <2></2> <3> Brainrot </3>": "0eef46baf313bd3c6ce8cf17ee88f847",
-    "<0></0> Extended (dashed)": "f4c0efe45dab8bb112e51e881740b7cb",
-    "<0>Growth</0> <1> Seedling </1>": "277d06a25b080b22021254e7fba5de4e",
     "<0>Health</0>": "c77f51043708c6decd788a71b2ad51d7",
     "✋ Touch": "3db700f7aa85f76cc4c27f9731ee7506",
     "🌱 Touch Grass": "2de696490b0342d13d6f69aa53696e18",
@@ -96,14 +95,12 @@
     "ACDEFGHIKLMNPQRSTVWY": "638ef73a7502450731f6bfb2c2dd8747",
     "Active": "4d3d769b812b6faa6b76e1a8abaece2d",
     "Add some amino acids below to compose a song.": "261482907c967b0e7476f300bf428a83",
-    "Adds ~{value0} bits of uniqueness": "48c481fe7341744266db0c9fe8e27839",
     "Adventurous": "7f39598e5adac52de6cbb0751dc59e54",
     "Advertisers rarely know who you are — they bid on profiles. Here's a mock auction for yours, scaled by the signals brokers actually price on. Grant more above and watch it climb.": "38825eaae85f3c98ddd616e52a42a886",
     "Africa": "f5cd262901883dff68d06b215fb0f28e",
     "Afternoon browsing": "c56b87c38ea7e006f89f9ee1552f0a79",
-    "Age": "9d8d2d5ab12b515182a505f54db7f538",
+    "Age {age} mo": "53394ff8bc5a6743db9e398348eebb68",
     "Age / Gender / Income": "b9f2062acff072f15dd27278801a47b5",
-    "Age <0>0</0> mo": "34c7cef435726458ffd8a5fca04cbba0",
     "Age Reached": "283dc8241af0eee178d700d03eed4786",
     "AI Emoji Translator": "53bac412db363202e48786800c836aca",
     "AI-powered apps such as Emoji Translator and Commune with God send your input to a language model and return a playful response.": "55691de122cb11239b054456a1c4a791",
@@ -111,6 +108,7 @@
     "Alaska Time · North America": "8d416bdbf8bc9ee4184a16232b92ece8",
     "ALPHA MOLLUSK": "ad25ef971d10b97f9803c6f2ee9fd3fd",
     "Alternatives": "ccf847bbe927621373e2891eca80bf93",
+    "Am I on the right path?": "82c34ac6bcca387b2cf012d0ad7565e1",
     "An estimated household income and net-worth bracket": "e2f38adc2a190504a610544a73647e7b",
     "An octopus lives only once": "478f281a6c24812757c880fce66a2476",
     "Ancient": "bdf1893b54669831286b617d7dc24e27",
@@ -122,6 +120,7 @@
     "Anvil": "762ee0989af33569108ad1e457093045",
     "Arcane Wizard Casting": "09f636751e906964457866eae9685148",
     "Archetype": "15f752f90268a1a39fe449871b75267c",
+    "Archetype: {archetype}": "e176589c675ed4763269d12c9662f10e",
     "Arginine": "8e6a049963314042453489e0c0218492",
     "Arial": "6fbda3a3567da6d01bc9da915e91d702",
     "Asia": "154a67340e8c14dd5253dc4ff6120197",
@@ -134,7 +133,6 @@
     "Asx — Asn or Asp": "7d85c0295320297e7509569bf4dd6581",
     "Atlantic region": "54b5056ac6ef2c4a912922d35018212d",
     "Audio": "b22f0418e8ac915eb66f829d262d14a2",
-    "Aura": "6ed3cf13906dc93a2f205a19e122c640",
     "Australia": "4442e4af0916f53a07fb8ca9a49b98ed",
     "Average Slug": "277cc70b17e7a7f609f009140946556b",
     "Back": "0557fa923dcee4d0f86b1409f5c2167f",
@@ -145,7 +143,6 @@
     "Base ad impression": "79df66e83f356d8e97e8733b4a130e9e",
     "Behavioral Tracking": "a0723407935932fde6303956b7b98a2e",
     "Beta": "0b87d66b88c72957dfea8c9605016442",
-    "bg-brand-surface hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-neo-pressed cursor-pointer": "550bf36cbd936334212256bbda829a29",
     "BJOUXZ": "d2293e9ceaab520853608f18e2c7dfea",
     "Blooming": "1c76609bae9af8092e6f6bdc6c4dcb15",
     "Blow into your mic to inflate it. Tie it off before it pops.": "daf04b82bbb6d5dac5c3b9484418b8f1",
@@ -158,6 +155,7 @@
     "Blues": "aca2a3c07f76ae685ae818b312e025c5",
     "Both slugs ready. Starting…": "7bf75713772c556655bcdd134146721f",
     "Brainrot": "f36a3b3cfd170fb6afc1aaa774c85830",
+    "Brainrot button": "5ae4f4ec4eac4e618302ed04e7646889",
     "Brainrot Button": "57bf5c76f0f88545c91c6d102b1e927f",
     "Bright": "45c1428dbdf63826b7b1a999e012df3b",
     "Bring 3 shells home": "bf4cae6ff3b808f21e5cc13c0f348d1b",
@@ -208,7 +206,8 @@
     "Chaos on a WARM aura keeps the energy high — and very suspicious.": "8bfaddf692fb82d3fb4a47920d59e58f",
     "Chaos score": "0a04ec9911970bb271dc716b0ccc122f",
     "Chaos scrambles the mix — color theory politely leaves the room.": "5db47947db721dddf68e4e4c55d7a15e",
-    "Chapter {no} · {value0}": "cf926fced41ca191448770f693915787",
+    "Chapter {no} · Age {age} months": "7129a06b598b697264a5f441a3719d28",
+    "Chapter {no} · Newly hatched": "dccd6b32cead4677440ff20f66c56310",
     "Choose your brainrot spell": "03e40907eae80e82bbe536003146ea8a",
     "Choose your mode": "1adb68ef57445f7c513d1ede6cd2f9a1",
     "Chorus": "9dcf77c2f2237c9e2013ea0175bf1745",
@@ -235,6 +234,8 @@
     "Cookies": "597b56e53847cd6a4712ac183f61fa68",
     "Cookies erased ✓": "026f4e296a4e0fa7174657d633a47d3e",
     "Cookies help websites remember you between visits. Come back later and watch this count climb.": "7b41aa23ba3e84cbae48f79a6eec31eb",
+    "Cookies: {visits, plural, one {# visit} other {# visits}}": "5582659ae202d7e8cf50b4d4eb630ba5",
+    "Cookies: erased": "c959b977666c2e68269904d608aa8382",
     "Cool — slow & smooth": "340b5287ec2bb9a2dcf7f690ee13f91d",
     "Cool and chaotic. Arms crossed. Says nothing. Nods slowly.": "adecbed9f6d2f190ab51dcd67799401c",
     "Cool colors + lots of rest = slow, mellow, flappy energy.": "183f3a9fe77c92e099800cc49ef96418",
@@ -326,15 +327,9 @@
     "Enabled": "00d23a76e43b46dae9ec7aa9dcbebb32",
     "Enchanted Wand": "b66ef86fcdf97877d86ce17682f18479",
     "Enchanted Wand leaves the shelf.": "b0b249463e0b8ca48339a9004ab7d525",
-    "Engagement": "f034ccfdba0f830ec14d37f73be77578",
-    "English": "78463a384a5aa4fad5fa73e2f506ecfc",
-    "English (Australia)": "150425a9e856e8efd4d4ccb2fd977e2c",
-    "English (Canada)": "f40c3cde472013baa7b5696d117c5fde",
-    "English (India)": "33326798efae7caf4800ba91394cbb4c",
-    "English (United Kingdom)": "c130e0351f05cd81663901c30ed53567",
+    "Engagement: {style}": "4cf9d411ea52e31b1b9f6dc9db956f85",
     "Environment": "0ba29c6a1afacf586b03a26162c72274",
     "Equal red + yellow + blue cancels into neutral — true balance is rare.": "1911b2982820d4046f86f3f29f746c54",
-    "Español": "de92bbe05815c4eb756acb5897baa99c",
     "Est. Data Value": "087c82f06d468304e54b3d7d2f9c18a8",
     "Estimated Profile Value": "9e8da51af8b2b74647ded3841feebf7c",
     "Europe": "912d59cdf1d3f551fae21f6f0062258f",
@@ -361,6 +356,7 @@
     "Fingerling": "dcc19db31c22455827ec900e8ed2d6fd",
     "Fingerprint": "536c0c9bcd09855d120989eee2aed942",
     "Fingerprint Uniqueness": "22240c5d336b0a5401d42c5c6b64e3dc",
+    "Fingerprint: {hash} (survives wipes)": "e075146206683444c46f80c47aaee727",
     "Firefox": "763f7f1aec350cd1a46238d1d5c3c229",
     "First Seen": "d916cc29cf1ef03264b111bd15660324",
     "First to": "f67496515f3bae9862a67a4b97bb9c43",
@@ -373,7 +369,6 @@
     "Forgotten": "155f25da0ecfab1f56f21310490daaa7",
     "Framed Portrait": "f4576ec99e1467467e782d25d02bcdf4",
     "Framed Portrait leaves the shelf.": "b05798cbcacc7fae80055b438157f5b5",
-    "Français (Canada)": "1c8fb6ae6497af7c153c5cb11e315071",
     "Free to use — no account, sign-up, login, or email required.": "5ca414b890ecaaf69f9aa8d8de6a94ef",
     "Frequency": "7cf395303ce3665a9834721d4b748e4b",
     "From your language setting — many people use English abroad.": "adf87dc20533263805363684b06294ca",
@@ -403,11 +398,14 @@
     "Goblin Memory #2": "2f080b8b1556820a893ed9cef3171788",
     "Goblin Rating": "c88978e3ada2d21cfd0b83ce9913a5d1",
     "Goblin sees you 🧌": "8497cca8704d04a356ece7ad41e6ccc7",
-    "Goblin Surveillance Mirror": "d8de60cdc272cee8e2d9169b86ba170d",
+    "Goblin Surveillance Mirror": "48a44a822438d26869b1ef5fa3a22a71",
+    "Goblin Surveillance Mirror\u0004body": "48a44a822438d26869b1ef5fa3a22a71",
+    "Goblin Surveillance Mirror\u0004header": "9a99ca9473bcfc1e439ee08c85ce1187",
     "Goblin Surveillance Report": "651ded75e0b4cca192eb114ea29708f5",
     "Goblin Surveillance Score": "0645068f1e4a6e5c2c1ecbcd3a812cd3",
     "Golden": "7d2b88f5977b8a31c6193b4c81a43daf",
     "GOO TYCOON": "896decd0df498ad11b282aa3022fbfb9",
+    "Government": "18450de39aceed82b26abe218d377740",
     "Government has been toppled!": "ea694328e03aef3fd9b3ff9c5bbf10a2",
     "Government Urn": "df34dc71eff0336e82948c837caa8e60",
     "GPS coordinates are far more precise than a city. From them, a website could look up your street address, and from that address typically dig up:": "a64284326408fb4d71cf9acd3974a695",
@@ -441,6 +439,7 @@
     "Hidden by browser": "ee99b2480fe324cad6fcbbe334b032d1",
     "Hide technical signals": "2ab0b886589508292fa9d5d13a6023ee",
     "High": "655d20c1ca69519ca647684edbb2db35",
+    "High confidence": "19016d4610b1fd2c2b638c969e14f657",
     "High engagement": "04355a97b6fd1e363ee7915ce6997262",
     "High-end": "9db042cdbedaeab6a292b7adeafb23f6",
     "High-value ad market": "6e8b744de19914ca7c29e18de0844273",
@@ -485,7 +484,9 @@
     "Languages": "3a08e2e340ab29fd9263af48193cbf8e",
     "Late-Night Browser": "fdecc63569f2f60b2ff372ca29e5a2bd",
     "Late-night browsing": "669c9fd4a888739a805c00fd02792f8a",
-    "Leaderboard": "e02b89857b91a11b8be92fca409827ba",
+    "Leaderboard": "8cc1e4ffb8500ed13fac6d81d246ea25",
+    "Leaderboard\u0004body": "8cc1e4ffb8500ed13fac6d81d246ea25",
+    "Leaderboard\u0004link": "c99b20a4a5081671400ba0baebc99c7b",
     "Learn your timezone and daily rhythm from when you open them": "32787ddce9035a3b44bd44164fcc2601",
     "Leave Arena": "de812a54c381277ead1bb87313cc0107",
     "Left": "945d5e233cf7d6240f6b783b36a374ff",
@@ -499,8 +500,10 @@
     "Let the Goblin look through your camera (stays on your device).": "784e3744457d68fc56c83bfd81c51c01",
     "Let the Goblin pinpoint where you physically are.": "831916bb4f030bcae6edb493ffb19c39",
     "Leucine": "79c0fd5b60886bdb83cdfefb53c84b22",
-    "Life of an Octopus": "9f4fd8c71b01cb468207eb8630c9d447",
+    "Life of an Octopus": "2963fffbf2a758560872ac4668983f17",
     "Life of an Octopus — Complete": "9e5782306d3dc550ae93e8dafc2de996",
+    "Life of an Octopus\u0004body": "2963fffbf2a758560872ac4668983f17",
+    "Life of an Octopus\u0004header": "e29d7fdbe4a0b404acc1f15fcef0ead1",
     "Light": "9914a0ce04a7b7b6a8e39bec55064b82",
     "Lighting": "2e4b97fde8cf63085ec969fcc7e490c0",
     "Link copied!": "2bb0e79c8fabfca33dc0ac4ed39240b8",
@@ -514,6 +517,8 @@
     "Local memory erased.": "0d4921024a9e8cf26a0a194dfcd03910",
     "Local Storage": "6827a85b76e967f6a129e08f9272e76d",
     "Local Storage can remember far more than cookies, and websites reach for it constantly.": "6dee8b3ca1d07c98aa33f5e6b32f2148",
+    "Local Storage: active": "1bf7f85a07e50151db8c5690cd493945",
+    "Local Storage: erased": "b24cc3a313e55b06b8b0faa122fcc8a5",
     "Location": "ce5bf551379459c1c61d2a204061c455",
     "Locked": "d0f2e5376298c880665077b565ffd7dd",
     "Long. Weird. Beautiful.": "67af75653ebaa58451ab0d08ebc80b84",
@@ -521,6 +526,7 @@
     "Lots of movement": "a136502de1a04926a086c3c20df2731d",
     "Loud": "954e3a7b3f57aafbc6c23dd8d36cfea3",
     "Low": "28d0edd045e05cf5af64e35ae0c4c6ef",
+    "Low confidence": "cb937bc19a8d96dc3559b4056e8ceba6",
     "Loyal Returning Specimen": "fe5879874f135b031dd78786c4536611",
     "Lunar Moonwalk": "f48b9b93f3ef0d4f5ed31cfa62ce8954",
     "Lurker": "3242698d7d5aec57dba2890244f01b4b",
@@ -529,8 +535,9 @@
     "Lysine": "5bf5ccb977295489598301316c3379b6",
     "Mackerel": "e46e03c883c2ac9e88acb082014ae610",
     "Major": "3b329734e45b57e60f3df64c2cf412a9",
-    "Matches ~{value0} of people": "1bf4510c8ee16496eb83b9755af6ec59",
+    "Matches ~{share} of people": "cf11e31fe1749c22ac62e5fdc679288a",
     "Medium": "87f8a6ab85c9ced3702b4ea641ad4bb5",
+    "Medium confidence": "bb8ec2c93bb8d3e6f22c3219e411c2dc",
     "Melancholy": "2e221a6022f316cabf92e286adb1355b",
     "Menlo": "73a6052cb11da2706b72657fbad0bd7c",
     "meta[name=\"description\"]": "09d9067cbae1554eb6e6034f412dd610",
@@ -565,6 +572,7 @@
     "Mouse": "f2a47c6809d88e175dade0ef7b16aa13",
     "Mouse Style": "7f793606f779e50ada49003ad46e4107",
     "Movement": "4642e767f9251fa40afadbc963f80b7a",
+    "mt-4 rounded-neobrutal border-thick border-brand-border bg-brand-primary px-4 py-2 font-heading text-lg uppercase text-brand-text shadow-neo-sm transition-transform hover:-translate-y-0.5 active:translate-y-0": "0e424dfc1e26028c6062fd77eab10d11",
     "MUCUS KING": "4316a11084d5430aa63ae2d7a250a0fe",
     "Multiplayer": "901a7320e77e54c4794bd577399eb0a6",
     "Multiplayer Match": "083a96d65b2afbf24d1d9d5160ed4726",
@@ -575,14 +583,12 @@
     "Muted": "70a51c85067ce6cd7fa1630b5a2d4951",
     "Mysterious": "2eb647120f7d88d2bbe8deb820cc7a1c",
     "Mystic Aura": "5e1d00a294ae5dc43e75f513e0b95f85",
-    "Nederlands": "dea2dcc2d6d633e6a3d2a93ed23aa903",
     "Negative": "ffb9356ff2b7da85c75c92fa7ea03b8b",
     "Neighborhood demographics and places you likely visit": "7a7ad2b2ae72bca3934113df8b9c6582",
     "Netherlands": "a67d4cbdd1b59e0ffccc6bafc83eb033",
     "Neutral": "e9bb5320b3890b6747c91b5a71ae5a01",
     "New Match": "4e966eb4a1be386621fcb791bd99bab1",
     "New Zealand": "c51ed580ea5e20c910d951f692512b4d",
-    "Newly hatched": "63eef78fa1d66a078180b28aecff7ff5",
     "Nice — balloon banked! A fresh one drifts in.": "6040127172500bb426c0c28bab973840",
     "No ads, no crypto, no wallet, no payments, and no tracking beyond basic anonymous visit counts.": "3bd9600b0be4fb583e7b9e22edd5066d",
     "No audio was captured. Try again.": "28b5b713ef6fdf858be194df7c4d0443",
@@ -593,7 +599,6 @@
     "None": "6adf97f83acf6453d4a6a4b1070f3754",
     "Nonpolar": "fde42827d1c952cb98d401d717059ce9",
     "Norway": "d5b9290a0b67727d4ba1ca6059dc31a6",
-    "NotAllowedError": "7802c5c0f76a9f0cd41432e20f243ad7",
     "Note:": "fc9d3df613063ee57906c461320744e2",
     "Notice how each permission hands me a brand-new sense. Saying no is always a valid move — that's the whole point.": "e74a548442b95f2abd75c6cdd06faab1",
     "Notifications": "a274f4d4670213a9045ce258c6c56b80",
@@ -644,7 +649,6 @@
     "Plucked: <0>{plucks}</0>": "29970d0b5990243bc619477fb7f93b0c",
     "Pointer": "61cf8510205077b6f5491d38cd44c0f7",
     "Polar": "e266cfd65ad46a67fc54b0efd38e40dd",
-    "Polski": "d0033788e612a4e0646c261eba804fb6",
     "POP. An egg?! You squeezed an entire egg out of the chicken.": "c7343b62a23769218f9619b913874665",
     "Portrait": "1c7444be9626d149ab598fb79b639f96",
     "Português (Brasil)": "c91e897d4a005988919e50f5247c9aed",
@@ -695,7 +699,7 @@
     "Reach the surface": "467acbf353a7a5faf0b16f973263e36c",
     "Reached: {title} · Age {value0} months": "e640798fd607bcac2052728729f3b717",
     "Read your expression to infer mood or attention": "f36315b58bf43ec7d469f6fa4aa10554",
-    "Reading style": "4d62729a072322550a0e2ebb938076ee",
+    "Reading style: {style}": "1374bceb73d9f6e3139bed3991056d45",
     "Ready to harvest!": "8277326ffe23b4bfb7c12510b4b75a07",
     "Record": "6a0d9eaee314c567fd72fb97ee707a36",
     "Record your own button voice, save it, and share a spell that expires before it gets too powerful.": "c90d0dfd7c4ee031e55b1c23d1468cfc",
@@ -742,10 +746,13 @@
     "Screams: <0>{screams}</0>": "0348e1c15a0082e363a378ab4a48b173",
     "Screen": "2fc3359e12b2a9104121dcf04246f6a0",
     "Scroll": "105078d294d30c978ca2badf7f376934",
-    "Scroll Goblin": "e75b44a79a1855b72a6e7de341f46dc7",
+    "Scroll Goblin": "f180459d5933a1eac5d8cfc69476bdda",
     "Scroll Goblin is a free collection of silly, interactive browser toys powered by AI. Each mini-app does one absurd thing well — there is nothing to install and nothing to learn. Just open one and start poking.": "86da98651d84aa4554dbc59fc91d082f",
     "Scroll Goblin is a free collection of silly, interactive browser toys powered by AI. Each mini-app does one absurd thing well, with nothing to install and nothing to learn.": "f7c2efdf524710dccbab354bbe7727d6",
     "Scroll Goblin mascot": "f287fad123baa7911da523765080a291",
+    "Scroll Goblin\u0004body": "f180459d5933a1eac5d8cfc69476bdda",
+    "Scroll Goblin\u0004header": "cd4146dba9a95a47bc6f40e2da08e8ca",
+    "Scroll Goblin\u0004link": "bf9ece38e172e4bdaf9c31d52da5b9b9",
     "Scroll Style": "efcace3f1d2676bc00e3f7640fa97015",
     "Sea Lion Aura": "a34512c427bed00b18434552dfcdb30e",
     "See who else is in the room with you": "0ab8e31a0f2d9542922ee84b55731b52",
@@ -756,7 +763,7 @@
     "Serine": "b11b6526fe7bdfd7dd2d08f96eea1feb",
     "served from cache": "a6959f83f1d7bf39353be0c305b41f39",
     "Session": "71c7ae294b7abd866b3fb295b3b9e4a4",
-    "Session length": "2e40d0aed96932630e10c1e63c60b27d",
+    "Session length: {value0}": "431aceb692d760caae487049440394c0",
     "Set it to Block or Ask, then reload the page.": "f021f843f02dcb9b1a6142157aa275ec",
     "Share": "5a95a425f74314a96f13a2f136992178",
     "Share this link": "0cfbecb992a97c76007e7ceb22c47695",
@@ -764,7 +771,6 @@
     "Shelf liberated.": "2d0b13c91b5da8e1894e23d8cfc756b1",
     "Shell": "ea89b68c34ce4a63c0f77e17413c6e30",
     "Should I take the leap?": "ee110d5442ab2aa985b97a2ba099b289",
-    "Show the {length} technical signals the Goblin also used": "984ee47b5570dedb2a2dfd3c94adbcbb",
     "Shrimp": "2f2e1847f0dbddd2a94ddf9b8823390e",
     "Shuffle": "e8b4b40ec3622e371789b790caabc083",
     "Sibling": "ba3f6a5526b54675d54123702760ddf2",
@@ -818,8 +824,10 @@
     "Sticky": "d8f6d391ba573fe747a3360afb99904d",
     "Still as Stone": "76e9936b5e08f27bd30cdebc9ba5afb7",
     "Stoic Sigma Nod": "00b3763f557305f3647268567530d8e9",
-    "Stop": "11a755d598c0c417f9a36758c3da7481",
+    "Stop": "c8dd98955265a0fec75b5bac7d3bcd0b",
     "Stop & release device": "f870abfaed593fae31773710542be0fa",
+    "Stop\u0004body": "c8dd98955265a0fec75b5bac7d3bcd0b",
+    "Stop\u0004button": "3450a631a9cec766fc585313b892383c",
     "Storage Status": "2390f20c2b99899727955b907ce4ffae",
     "Stories": "cbb37401d648375c9a32619279b03418",
     "Storytelling pulled this aura cool and dreamy regardless of mix.": "c3e3238bfdce588b8f612451ab173837",
@@ -832,7 +840,6 @@
     "Surprise me": "fdc2ecfc0a58cf6b77c93ced6db095ad",
     "Suspicious Little Safe": "cba708d988ead357e63b696b3299079d",
     "Suspicious Little Safe leaves the shelf.": "2d7795e379c72de0140ea96b273403fc",
-    "Svenska": "905bd3465e945f776a704e98677a09d8",
     "Swap direction": "70d8dbd167eec8d08729460d8db753da",
     "Swat {name}": "9dc5307888c3ca2aa527117758bc63c3",
     "Sweden": "c8f4261f9f46e6465709e17ebea7a92b",
@@ -891,9 +898,9 @@
     "The shared custom clip expired, so the default is back.": "f09a5085eb3772d614679639dfe7f194",
     "The stats database isn't connected yet, so everything reads zero. (API is missing its Upstash Redis credentials.)": "3ab30a179e90d2edf29efb2efa64a95e",
     "The Tray — pick your spud": "5df4db78d6fc67186daa89c092e1ec2e",
+    "The Twist": "e0950c152138373c3268194b1aeb80b5",
     "These look like gibberish to you — and that's the point. Your GPU, canvas drawing, and installed fonts are exactly what make your device stand out from the crowd.": "913686c75668d7bf20030d78a1e2df08",
     "This browser does not support recording.": "7c0d3756501fa59c38b4d61a0bc7ffce",
-    "This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all {length} signals above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.": "15288a73cd059d11b2c757609418f01b",
     "This page doesn't exist. The goblin probably ate it.": "81ab79586e8d0ee9039a4a38870b3e5b",
     "Thousands hatch. Few survive.": "001afc29ea34125d3a01a7d9dfb59236",
     "Threonine": "fd32e8c9ae0629d7aaebe197c85bb761",
@@ -1008,16 +1015,14 @@
     "Your name": "221e705c06e231636fdbccfdd14f4d5c",
     "Your offspring hatched successfully.": "63e601deb43ef336b63c37d1a7afbd71",
     "Your passwords or messages": "d8c2803b534c5d58392f6edb130ee1dd",
-    "Your sequence": "866e764e53ad76a5f0e43721fd24b096",
+    "Your sequence ({length}/{MAX_NOTES})": "9f15be91e88cacc834434b9d51ffae5a",
     "Your setting — quiet home, busy office, car, or street": "8d53649d0c28c8d071e33096d78da00b",
     "Your slug always fights on your dominant side.": "e9073434fc012927dcb292340b7e0a7d",
     "Your slug has ascended.": "813fd31e931ee9474f5e064a891c7376",
     "Your slug will train harder. Here's a tiny dumbbell.": "c6f1d29ed869f77426fb23a470f706ad",
     "Your song will appear here": "1482d2f60adc0720e052dadfc4076980",
     "Yukon Gold": "6b6a1b8220bfc2890fbeab028a97aab7",
-    "Русский": "a5c072fa947c0f5677a599b14f3fd48c",
-    "Українська": "e1c319e56cddb033e36ac4c1c92fc996",
-    "हिन्दी": "450e0a7004f052c5cacb05548a10bedf"
+    "العربية": "26b1b2b0a4193aabcc33455732de89ac"
   },
   "sources": [
     {
@@ -1025,44 +1030,48 @@
       "key": "f4078ba042990272cc8678168e4ed1d0"
     },
     {
-      "source": "(survives wipes)",
-      "key": "e692b9338cb9c4abff34312840831bec"
-    },
-    {
       "source": "(tap a discovered dance to perform it)",
       "key": "3a775becc383bb9a75b3f675e8b82095"
+    },
+    {
+      "source": "{bits, plural, one {Adds ~# bit of uniqueness} other {Adds ~# bits of uniqueness}}",
+      "key": "517e69103e99eb77f7507702052d82ac"
     },
     {
       "source": "{colorDepth}-bit",
       "key": "086860ad482a55ffe111a8c43c0fbfb8"
     },
     {
-      "source": "{confidence} confidence",
-      "key": "3b7302fcec725b3990cc19c5058f1058"
+      "source": "{count, plural, one {# day ago} other {# days ago}}",
+      "key": "da963a721187adf5a22f3add2d49dc09"
     },
     {
-      "source": "{count} days ago",
-      "key": "6bb22e33c324c19fd57057914c09a9e7"
+      "source": "{count, plural, one {# hour ago} other {# hours ago}}",
+      "key": "1d4cbb2e5aa03de9aa4b3c48fd7e748b"
     },
     {
-      "source": "{count} hours ago",
-      "key": "a730696d895bc05affab0931516c4df1"
-    },
-    {
-      "source": "{days} days ago",
-      "key": "21040be428d3d917781bf3623fc15282"
+      "source": "{days, plural, one {# day ago} other {# days ago}}",
+      "key": "ebc48f7cb0c0a9e17cb257ad2d537663"
     },
     {
       "source": "{h}h {m}m",
       "key": "32e6dc3e300b8fe9129c83066d522129"
     },
     {
-      "source": "{hours} hours ago",
-      "key": "9caad9900751c93ff1ac7154cd6ed975"
+      "source": "{hours, plural, one {# hour ago} other {# hours ago}}",
+      "key": "890317699a7ef8d9ea12d1ea4533fa01"
     },
     {
       "source": "{hours}h {minutes}m",
       "key": "6dc97c87386c949982eedd564c6c59ed"
+    },
+    {
+      "source": "{length, plural, one {Show the # technical signal the Goblin also used} other {Show the # technical signals the Goblin also used}}",
+      "key": "8827c2ba68b14484def8b620ace1e28b"
+    },
+    {
+      "source": "{length, plural, one {This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all # signal above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.} other {This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all # signals above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.}}",
+      "key": "cedece42c337e7f2a8b4283956dba13c"
     },
     {
       "source": "{length}/{value0} detected",
@@ -1071,10 +1080,6 @@
     {
       "source": "{m}m {s}s",
       "key": "aee6baed3243396557d43cd622d7ec87"
-    },
-    {
-      "source": "{m}m {value0}s",
-      "key": "4272fd6913f4d6a4bb8d1854d3882141"
     },
     {
       "source": "{mem} GB",
@@ -1089,8 +1094,8 @@
       "key": "b4c2acfd9dfca17023368cbd3b0d3859"
     },
     {
-      "source": "{noteCount} notes",
-      "key": "415d8fb558bc053847651eda8ef60898"
+      "source": "{noteCount, plural, one {# note} other {# notes}}",
+      "key": "d4b921dcb0dffbaf0f440e46f9be81ca"
     },
     {
       "source": "{points} chaos",
@@ -1113,6 +1118,10 @@
       "key": "e1443cd3c7213a6c92bfe1edcfd6c88a"
     },
     {
+      "source": "{seconds}s",
+      "key": "5863d63d1319d13645a4a028420ec253"
+    },
+    {
       "source": "{short} scoots closer to doom.",
       "key": "66dd5c908ed28a5d3260980df1d5cdb9"
     },
@@ -1129,8 +1138,8 @@
       "key": "f7b2e59ada25f957a9f6261ff1614c42"
     },
     {
-      "source": "{touch} ({touchPoints} pts)",
-      "key": "0b6c8aeeef3615c811152bf3e6b0389f"
+      "source": "{touch} ({touchPoints, plural, one {# pt} other {# pts}})",
+      "key": "f2d2196944e117956177020f196b20dc"
     },
     {
       "source": "{value0} billion",
@@ -1149,10 +1158,6 @@
       "key": "d8fd9583772eec0332f7a769a9788aa2"
     },
     {
-      "source": "{visits} visits",
-      "key": "368127c373e83d8953ffb94c4292f142"
-    },
-    {
       "source": "← Back",
       "key": "fa9309cd5ba2f89ef8590aa88cbc9579"
     },
@@ -1161,20 +1166,12 @@
       "key": "6067b1ebfa68b4e474b849e585208c93"
     },
     {
+      "source": "+{value0} Aura",
+      "key": "dec78c9c3b837e4bd56119de60b85e59"
+    },
+    {
       "source": "+1 point!",
       "key": "a8fbe40cf3123798cf862820ec6657f9"
-    },
-    {
-      "source": "<0></0> <1></1> <2></2> <3> Brainrot </3>",
-      "key": "0eef46baf313bd3c6ce8cf17ee88f847"
-    },
-    {
-      "source": "<0></0> Extended (dashed)",
-      "key": "f4c0efe45dab8bb112e51e881740b7cb"
-    },
-    {
-      "source": "<0>Growth</0> <1> Seedling </1>",
-      "key": "277d06a25b080b22021254e7fba5de4e"
     },
     {
       "source": "<0>Health</0>",
@@ -1405,10 +1402,6 @@
       "key": "261482907c967b0e7476f300bf428a83"
     },
     {
-      "source": "Adds ~{value0} bits of uniqueness",
-      "key": "48c481fe7341744266db0c9fe8e27839"
-    },
-    {
       "source": "Adventurous",
       "key": "7f39598e5adac52de6cbb0751dc59e54"
     },
@@ -1425,16 +1418,12 @@
       "key": "c56b87c38ea7e006f89f9ee1552f0a79"
     },
     {
-      "source": "Age",
-      "key": "9d8d2d5ab12b515182a505f54db7f538"
+      "source": "Age {age} mo",
+      "key": "53394ff8bc5a6743db9e398348eebb68"
     },
     {
       "source": "Age / Gender / Income",
       "key": "b9f2062acff072f15dd27278801a47b5"
-    },
-    {
-      "source": "Age <0>0</0> mo",
-      "key": "34c7cef435726458ffd8a5fca04cbba0"
     },
     {
       "source": "Age Reached",
@@ -1463,6 +1452,10 @@
     {
       "source": "Alternatives",
       "key": "ccf847bbe927621373e2891eca80bf93"
+    },
+    {
+      "source": "Am I on the right path?",
+      "key": "82c34ac6bcca387b2cf012d0ad7565e1"
     },
     {
       "source": "An estimated household income and net-worth bracket",
@@ -1507,6 +1500,10 @@
     {
       "source": "Archetype",
       "key": "15f752f90268a1a39fe449871b75267c"
+    },
+    {
+      "source": "Archetype: {archetype}",
+      "key": "e176589c675ed4763269d12c9662f10e"
     },
     {
       "source": "Arginine",
@@ -1557,10 +1554,6 @@
       "key": "b22f0418e8ac915eb66f829d262d14a2"
     },
     {
-      "source": "Aura",
-      "key": "6ed3cf13906dc93a2f205a19e122c640"
-    },
-    {
       "source": "Australia",
       "key": "4442e4af0916f53a07fb8ca9a49b98ed"
     },
@@ -1599,10 +1592,6 @@
     {
       "source": "Beta",
       "key": "0b87d66b88c72957dfea8c9605016442"
-    },
-    {
-      "source": "bg-brand-surface hover:-translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-neo-pressed cursor-pointer",
-      "key": "550bf36cbd936334212256bbda829a29"
     },
     {
       "source": "BJOUXZ",
@@ -1651,6 +1640,10 @@
     {
       "source": "Brainrot",
       "key": "f36a3b3cfd170fb6afc1aaa774c85830"
+    },
+    {
+      "source": "Brainrot button",
+      "key": "5ae4f4ec4eac4e618302ed04e7646889"
     },
     {
       "source": "Brainrot Button",
@@ -1853,8 +1846,12 @@
       "key": "5db47947db721dddf68e4e4c55d7a15e"
     },
     {
-      "source": "Chapter {no} · {value0}",
-      "key": "cf926fced41ca191448770f693915787"
+      "source": "Chapter {no} · Age {age} months",
+      "key": "7129a06b598b697264a5f441a3719d28"
+    },
+    {
+      "source": "Chapter {no} · Newly hatched",
+      "key": "dccd6b32cead4677440ff20f66c56310"
     },
     {
       "source": "Choose your brainrot spell",
@@ -1959,6 +1956,14 @@
     {
       "source": "Cookies help websites remember you between visits. Come back later and watch this count climb.",
       "key": "7b41aa23ba3e84cbae48f79a6eec31eb"
+    },
+    {
+      "source": "Cookies: {visits, plural, one {# visit} other {# visits}}",
+      "key": "5582659ae202d7e8cf50b4d4eb630ba5"
+    },
+    {
+      "source": "Cookies: erased",
+      "key": "c959b977666c2e68269904d608aa8382"
     },
     {
       "source": "Cool — slow & smooth",
@@ -2325,28 +2330,8 @@
       "key": "b0b249463e0b8ca48339a9004ab7d525"
     },
     {
-      "source": "Engagement",
-      "key": "f034ccfdba0f830ec14d37f73be77578"
-    },
-    {
-      "source": "English",
-      "key": "78463a384a5aa4fad5fa73e2f506ecfc"
-    },
-    {
-      "source": "English (Australia)",
-      "key": "150425a9e856e8efd4d4ccb2fd977e2c"
-    },
-    {
-      "source": "English (Canada)",
-      "key": "f40c3cde472013baa7b5696d117c5fde"
-    },
-    {
-      "source": "English (India)",
-      "key": "33326798efae7caf4800ba91394cbb4c"
-    },
-    {
-      "source": "English (United Kingdom)",
-      "key": "c130e0351f05cd81663901c30ed53567"
+      "source": "Engagement: {style}",
+      "key": "4cf9d411ea52e31b1b9f6dc9db956f85"
     },
     {
       "source": "Environment",
@@ -2355,10 +2340,6 @@
     {
       "source": "Equal red + yellow + blue cancels into neutral — true balance is rare.",
       "key": "1911b2982820d4046f86f3f29f746c54"
-    },
-    {
-      "source": "Español",
-      "key": "de92bbe05815c4eb756acb5897baa99c"
     },
     {
       "source": "Est. Data Value",
@@ -2465,6 +2446,10 @@
       "key": "22240c5d336b0a5401d42c5c6b64e3dc"
     },
     {
+      "source": "Fingerprint: {hash} (survives wipes)",
+      "key": "e075146206683444c46f80c47aaee727"
+    },
+    {
       "source": "Firefox",
       "key": "763f7f1aec350cd1a46238d1d5c3c229"
     },
@@ -2511,10 +2496,6 @@
     {
       "source": "Framed Portrait leaves the shelf.",
       "key": "b05798cbcacc7fae80055b438157f5b5"
-    },
-    {
-      "source": "Français (Canada)",
-      "key": "1c8fb6ae6497af7c153c5cb11e315071"
     },
     {
       "source": "Free to use — no account, sign-up, login, or email required.",
@@ -2634,7 +2615,15 @@
     },
     {
       "source": "Goblin Surveillance Mirror",
-      "key": "d8de60cdc272cee8e2d9169b86ba170d"
+      "key": "48a44a822438d26869b1ef5fa3a22a71"
+    },
+    {
+      "source": "Goblin Surveillance Mirror\u0004body",
+      "key": "48a44a822438d26869b1ef5fa3a22a71"
+    },
+    {
+      "source": "Goblin Surveillance Mirror\u0004header",
+      "key": "9a99ca9473bcfc1e439ee08c85ce1187"
     },
     {
       "source": "Goblin Surveillance Report",
@@ -2651,6 +2640,10 @@
     {
       "source": "GOO TYCOON",
       "key": "896decd0df498ad11b282aa3022fbfb9"
+    },
+    {
+      "source": "Government",
+      "key": "18450de39aceed82b26abe218d377740"
     },
     {
       "source": "Government has been toppled!",
@@ -2783,6 +2776,10 @@
     {
       "source": "High",
       "key": "655d20c1ca69519ca647684edbb2db35"
+    },
+    {
+      "source": "High confidence",
+      "key": "19016d4610b1fd2c2b638c969e14f657"
     },
     {
       "source": "High engagement",
@@ -2962,7 +2959,15 @@
     },
     {
       "source": "Leaderboard",
-      "key": "e02b89857b91a11b8be92fca409827ba"
+      "key": "8cc1e4ffb8500ed13fac6d81d246ea25"
+    },
+    {
+      "source": "Leaderboard\u0004body",
+      "key": "8cc1e4ffb8500ed13fac6d81d246ea25"
+    },
+    {
+      "source": "Leaderboard\u0004link",
+      "key": "c99b20a4a5081671400ba0baebc99c7b"
     },
     {
       "source": "Learn your timezone and daily rhythm from when you open them",
@@ -3018,11 +3023,19 @@
     },
     {
       "source": "Life of an Octopus",
-      "key": "9f4fd8c71b01cb468207eb8630c9d447"
+      "key": "2963fffbf2a758560872ac4668983f17"
     },
     {
       "source": "Life of an Octopus — Complete",
       "key": "9e5782306d3dc550ae93e8dafc2de996"
+    },
+    {
+      "source": "Life of an Octopus\u0004body",
+      "key": "2963fffbf2a758560872ac4668983f17"
+    },
+    {
+      "source": "Life of an Octopus\u0004header",
+      "key": "e29d7fdbe4a0b404acc1f15fcef0ead1"
     },
     {
       "source": "Light",
@@ -3077,6 +3090,14 @@
       "key": "6dee8b3ca1d07c98aa33f5e6b32f2148"
     },
     {
+      "source": "Local Storage: active",
+      "key": "1bf7f85a07e50151db8c5690cd493945"
+    },
+    {
+      "source": "Local Storage: erased",
+      "key": "b24cc3a313e55b06b8b0faa122fcc8a5"
+    },
+    {
       "source": "Location",
       "key": "ce5bf551379459c1c61d2a204061c455"
     },
@@ -3103,6 +3124,10 @@
     {
       "source": "Low",
       "key": "28d0edd045e05cf5af64e35ae0c4c6ef"
+    },
+    {
+      "source": "Low confidence",
+      "key": "cb937bc19a8d96dc3559b4056e8ceba6"
     },
     {
       "source": "Loyal Returning Specimen",
@@ -3137,12 +3162,16 @@
       "key": "3b329734e45b57e60f3df64c2cf412a9"
     },
     {
-      "source": "Matches ~{value0} of people",
-      "key": "1bf4510c8ee16496eb83b9755af6ec59"
+      "source": "Matches ~{share} of people",
+      "key": "cf11e31fe1749c22ac62e5fdc679288a"
     },
     {
       "source": "Medium",
       "key": "87f8a6ab85c9ced3702b4ea641ad4bb5"
+    },
+    {
+      "source": "Medium confidence",
+      "key": "bb8ec2c93bb8d3e6f22c3219e411c2dc"
     },
     {
       "source": "Melancholy",
@@ -3281,6 +3310,10 @@
       "key": "4642e767f9251fa40afadbc963f80b7a"
     },
     {
+      "source": "mt-4 rounded-neobrutal border-thick border-brand-border bg-brand-primary px-4 py-2 font-heading text-lg uppercase text-brand-text shadow-neo-sm transition-transform hover:-translate-y-0.5 active:translate-y-0",
+      "key": "0e424dfc1e26028c6062fd77eab10d11"
+    },
+    {
       "source": "MUCUS KING",
       "key": "4316a11084d5430aa63ae2d7a250a0fe"
     },
@@ -3321,10 +3354,6 @@
       "key": "5e1d00a294ae5dc43e75f513e0b95f85"
     },
     {
-      "source": "Nederlands",
-      "key": "dea2dcc2d6d633e6a3d2a93ed23aa903"
-    },
-    {
       "source": "Negative",
       "key": "ffb9356ff2b7da85c75c92fa7ea03b8b"
     },
@@ -3347,10 +3376,6 @@
     {
       "source": "New Zealand",
       "key": "c51ed580ea5e20c910d951f692512b4d"
-    },
-    {
-      "source": "Newly hatched",
-      "key": "63eef78fa1d66a078180b28aecff7ff5"
     },
     {
       "source": "Nice — balloon banked! A fresh one drifts in.",
@@ -3391,10 +3416,6 @@
     {
       "source": "Norway",
       "key": "d5b9290a0b67727d4ba1ca6059dc31a6"
-    },
-    {
-      "source": "NotAllowedError",
-      "key": "7802c5c0f76a9f0cd41432e20f243ad7"
     },
     {
       "source": "Note:",
@@ -3597,10 +3618,6 @@
       "key": "e266cfd65ad46a67fc54b0efd38e40dd"
     },
     {
-      "source": "Polski",
-      "key": "d0033788e612a4e0646c261eba804fb6"
-    },
-    {
       "source": "POP. An egg?! You squeezed an entire egg out of the chicken.",
       "key": "c7343b62a23769218f9619b913874665"
     },
@@ -3801,8 +3818,8 @@
       "key": "f36315b58bf43ec7d469f6fa4aa10554"
     },
     {
-      "source": "Reading style",
-      "key": "4d62729a072322550a0e2ebb938076ee"
+      "source": "Reading style: {style}",
+      "key": "1374bceb73d9f6e3139bed3991056d45"
     },
     {
       "source": "Ready to harvest!",
@@ -3990,7 +4007,7 @@
     },
     {
       "source": "Scroll Goblin",
-      "key": "e75b44a79a1855b72a6e7de341f46dc7"
+      "key": "f180459d5933a1eac5d8cfc69476bdda"
     },
     {
       "source": "Scroll Goblin is a free collection of silly, interactive browser toys powered by AI. Each mini-app does one absurd thing well — there is nothing to install and nothing to learn. Just open one and start poking.",
@@ -4003,6 +4020,18 @@
     {
       "source": "Scroll Goblin mascot",
       "key": "f287fad123baa7911da523765080a291"
+    },
+    {
+      "source": "Scroll Goblin\u0004body",
+      "key": "f180459d5933a1eac5d8cfc69476bdda"
+    },
+    {
+      "source": "Scroll Goblin\u0004header",
+      "key": "cd4146dba9a95a47bc6f40e2da08e8ca"
+    },
+    {
+      "source": "Scroll Goblin\u0004link",
+      "key": "bf9ece38e172e4bdaf9c31d52da5b9b9"
     },
     {
       "source": "Scroll Style",
@@ -4045,8 +4074,8 @@
       "key": "71c7ae294b7abd866b3fb295b3b9e4a4"
     },
     {
-      "source": "Session length",
-      "key": "2e40d0aed96932630e10c1e63c60b27d"
+      "source": "Session length: {value0}",
+      "key": "431aceb692d760caae487049440394c0"
     },
     {
       "source": "Set it to Block or Ask, then reload the page.",
@@ -4075,10 +4104,6 @@
     {
       "source": "Should I take the leap?",
       "key": "ee110d5442ab2aa985b97a2ba099b289"
-    },
-    {
-      "source": "Show the {length} technical signals the Goblin also used",
-      "key": "984ee47b5570dedb2a2dfd3c94adbcbb"
     },
     {
       "source": "Shrimp",
@@ -4294,11 +4319,19 @@
     },
     {
       "source": "Stop",
-      "key": "11a755d598c0c417f9a36758c3da7481"
+      "key": "c8dd98955265a0fec75b5bac7d3bcd0b"
     },
     {
       "source": "Stop & release device",
       "key": "f870abfaed593fae31773710542be0fa"
+    },
+    {
+      "source": "Stop\u0004body",
+      "key": "c8dd98955265a0fec75b5bac7d3bcd0b"
+    },
+    {
+      "source": "Stop\u0004button",
+      "key": "3450a631a9cec766fc585313b892383c"
     },
     {
       "source": "Storage Status",
@@ -4347,10 +4380,6 @@
     {
       "source": "Suspicious Little Safe leaves the shelf.",
       "key": "2d7795e379c72de0140ea96b273403fc"
-    },
-    {
-      "source": "Svenska",
-      "key": "905bd3465e945f776a704e98677a09d8"
     },
     {
       "source": "Swap direction",
@@ -4585,16 +4614,16 @@
       "key": "5df4db78d6fc67186daa89c092e1ec2e"
     },
     {
+      "source": "The Twist",
+      "key": "e0950c152138373c3268194b1aeb80b5"
+    },
+    {
       "source": "These look like gibberish to you — and that's the point. Your GPU, canvas drawing, and installed fonts are exactly what make your device stand out from the crowd.",
       "key": "913686c75668d7bf20030d78a1e2df08"
     },
     {
       "source": "This browser does not support recording.",
       "key": "7c0d3756501fa59c38b4d61a0bc7ffce"
-    },
-    {
-      "source": "This describes a type of device, not a proven one-of-a-kind machine. Many signals overlap (a phone model locks its screen, GPU and fonts together), so we discount for that — desktops vary a lot and trend unique, while phones cluster and are far less identifying. It's an estimate from all {length} signals above, calibrated against public research (EFF Panopticlick, AmIUnique). A precise figure would need a live database of real visitors — which would mean sending your data off-device, so the Goblin won't.",
-      "key": "15288a73cd059d11b2c757609418f01b"
     },
     {
       "source": "This page doesn't exist. The goblin probably ate it.",
@@ -5053,8 +5082,8 @@
       "key": "d8c2803b534c5d58392f6edb130ee1dd"
     },
     {
-      "source": "Your sequence",
-      "key": "866e764e53ad76a5f0e43721fd24b096"
+      "source": "Your sequence ({length}/{MAX_NOTES})",
+      "key": "9f15be91e88cacc834434b9d51ffae5a"
     },
     {
       "source": "Your setting — quiet home, busy office, car, or street",
@@ -5081,16 +5110,8 @@
       "key": "6b6a1b8220bfc2890fbeab028a97aab7"
     },
     {
-      "source": "Русский",
-      "key": "a5c072fa947c0f5677a599b14f3fd48c"
-    },
-    {
-      "source": "Українська",
-      "key": "e1c319e56cddb033e36ac4c1c92fc996"
-    },
-    {
-      "source": "हिन्दी",
-      "key": "450e0a7004f052c5cacb05548a10bedf"
+      "source": "العربية",
+      "key": "26b1b2b0a4193aabcc33455732de89ac"
     }
   ]
 }

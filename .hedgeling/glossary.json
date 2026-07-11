@@ -1,6 +1,5 @@
 {
   "terms": [
-    { "term": "English", "doNotTranslate": true, "description": "Native language name in the language picker; always shown in its own form." },
     { "term": "English (Australia)", "doNotTranslate": true, "description": "Native language name in the language picker." },
     { "term": "English (Canada)", "doNotTranslate": true, "description": "Native language name in the language picker." },
     { "term": "English (United Kingdom)", "doNotTranslate": true, "description": "Native language name in the language picker." },

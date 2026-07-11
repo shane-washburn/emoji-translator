@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Delete, Dna, Play, Shuffle, Sliders, Square, Trash2 } from "lucide-react";
+import { t } from "@hedgeling/i18n/runtime";
 import {
   Card,
   MuteButton,
@@ -191,7 +192,9 @@ export default function MusicalDnaPage() {
                   <p className="text-xs font-bold text-brand-muted">
                     {song.genreEmoji} {song.genreLabel} · {song.key} ·{" "}
                     {song.mood} · {`${song.tempo} BPM`} ·{" "}
-                    {`${song.noteCount} notes`}
+                    {t("{noteCount, plural, one {# note} other {# notes}}", {
+                      noteCount: song.noteCount,
+                    })}
                   </p>
                 </>
               ) : (

@@ -360,7 +360,7 @@ export default function PotatoPainterPage() {
         <div
           className="pointer-events-none fixed z-50"
           style={{
-            left: drag.x,
+            insetInlineStart: drag.x,
             top: drag.y,
             transform: "translate(-50%, -50%)",
           }}

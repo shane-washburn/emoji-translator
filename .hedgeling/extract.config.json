@@ -13,7 +13,8 @@
     "uk-UA",
     "ru-RU",
     "es-ES",
-    "pt-BR"
+    "pt-BR",
+    "ar-SA"
   ],
   "scanRoots": [
     "apps/web/src",
@@ -22,6 +23,13 @@
     "packages/modules"
   ],
   "outputDir": "apps/web/i18n",
+  "runtimeOutputDir": "apps/web/public",
+  "projectSlug": "scroll-goblin",
+  "adapters": ["react-ts", "js-ts", "html"],
+  "excludePatterns": [
+    "^\\{d\\} Z$",
+    "^English$"
+  ],
   "ignoredDirs": [
     ".git",
     ".hedgeling",

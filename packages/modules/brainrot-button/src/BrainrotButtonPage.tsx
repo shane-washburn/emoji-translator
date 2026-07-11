@@ -371,7 +371,7 @@ export default function BrainrotButtonPage() {
           >
             <span className="absolute inset-2 rounded-full border-thick border-brand-border bg-[#7A001A]" />
             <span className="absolute inset-5 rounded-full border-thick border-brand-border bg-[radial-gradient(circle_at_35%_24%,#ff6f7f_0%,#ff003c_34%,#b8002b_70%,#780018_100%)] shadow-[inset_-10px_-14px_0_rgba(0,0,0,0.22),inset_8px_10px_0_rgba(255,255,255,0.2)] transition-[inset] duration-100 group-active:inset-7" />
-            <span className="absolute left-[24%] top-[16%] h-[12%] w-[34%] rotate-[-20deg] rounded-full bg-white/35 blur-[1px]" />
+            <span className="absolute start-[24%] top-[16%] h-[12%] w-[34%] rotate-[-20deg] rounded-full bg-white/35 blur-[1px]" />
             <span className="relative z-10 mx-auto flex h-full max-w-[68%] items-center justify-center text-center font-heading text-4xl uppercase leading-[0.9] text-brand-background drop-shadow-[3px_3px_0_#000] sm:text-5xl">
               {"Brainrot"}
             </span>

@@ -52,7 +52,7 @@ function RevokeHelp({ label }: { label: string }) {
           <p>
             {"A web page can't revoke its own permissions — only your browser can. To fully take it back:"}
           </p>
-          <ol className="mt-1 list-decimal pl-4">
+          <ol className="mt-1 list-decimal ps-4">
             <li>
               {"Click the lock / tune icon at the left of the address bar."}
             </li>
@@ -212,7 +212,7 @@ export function NotificationDare({ onGrant }: { onGrant?: () => void }) {
           <p className="text-xs font-bold text-brand-text">
             {"A notification permission is a permanent hook back to you. With it, a site can:"}
           </p>
-          <ul className="mt-1 list-disc pl-4 text-xs text-brand-text/80">
+          <ul className="mt-1 list-disc ps-4 text-xs text-brand-text/80">
             <li>{"Ping you any time — even after you close the tab or browser"}</li>
             <li>{"Learn your timezone and daily rhythm from when you open them"}</li>
             <li>{"Track which alerts you click to profile what lures you back"}</li>
@@ -277,7 +277,7 @@ export function GeolocationDare({ onGrant }: { onGrant?: () => void }) {
           <p className="text-xs font-bold text-brand-text">
             {"GPS coordinates are far more precise than a city. From them, a website could look up your street address, and from that address typically dig up:"}
           </p>
-          <ul className="mt-1 list-disc pl-4 text-xs text-brand-text/80">
+          <ul className="mt-1 list-disc ps-4 text-xs text-brand-text/80">
             <li>{"Your home address and who else lives there"}</li>
             <li>{"Property records: owner, value, and purchase date"}</li>
             <li>{"An estimated household income and net-worth bracket"}</li>
@@ -413,7 +413,7 @@ export function CameraDare({ onGrant }: { onGrant?: () => void }) {
           <p className="text-xs font-bold text-brand-text">
             {"A brightness reading is the least of it. With real camera access, a site could:"}
           </p>
-          <ul className="mt-1 list-disc pl-4 text-xs text-brand-text/80">
+          <ul className="mt-1 list-disc ps-4 text-xs text-brand-text/80">
             <li>{"Capture your face and match it to photos of you elsewhere"}</li>
             <li>{"Read your expression to infer mood or attention"}</li>
             <li>{"See who else is in the room with you"}</li>
@@ -544,7 +544,7 @@ export function MicrophoneDare({ onGrant }: { onGrant?: () => void }) {
           <p className="text-xs font-bold text-brand-text">
             {"A loudness meter is the least of it. With raw microphone access, a site could work out:"}
           </p>
-          <ul className="mt-1 list-disc pl-4 text-xs text-brand-text/80">
+          <ul className="mt-1 list-disc ps-4 text-xs text-brand-text/80">
             <li>{"Whether you're alone or others are nearby (multiple voices)"}</li>
             <li>{"Your setting — quiet home, busy office, car, or street"}</li>
             <li>{"Speech turned to text: topics, names, even your mood"}</li>

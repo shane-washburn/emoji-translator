@@ -339,7 +339,7 @@ export default function BalloonBlowerPage() {
               {filled}
             </p>
           </div>
-          <div className="bg-brand-pink p-3 text-right">
+          <div className="bg-brand-pink p-3 text-end">
             <p className="text-xs font-bold uppercase text-brand-text">
               {"Balloons popped"}
             </p>
@@ -427,7 +427,7 @@ export default function BalloonBlowerPage() {
           </div>
           <span
             ref={pctLabel}
-            className="w-12 text-right font-heading text-sm text-brand-text"
+            className="w-12 text-end font-heading text-sm text-brand-text"
           >
             0%
           </span>

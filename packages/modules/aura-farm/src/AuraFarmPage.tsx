@@ -452,7 +452,7 @@ export default function AuraFarmPage() {
               />
               <MuteButton />
               <span
-                className="ml-auto inline-flex h-6 w-6 rounded-full border-thin border-brand-border shadow-neo-sm"
+                className="ms-auto inline-flex h-6 w-6 rounded-full border-thin border-brand-border shadow-neo-sm"
                 style={{ backgroundColor: orbColor }}
                 aria-hidden
               />
@@ -509,7 +509,7 @@ export default function AuraFarmPage() {
           <p className="mb-2 text-[11px] font-bold uppercase text-brand-muted">
             {"Dance Encyclopedia"} —{" "}
             {`${dex.size}/${total} unlocked`}
-            <span className="ml-1 normal-case text-brand-muted/80">
+            <span className="ms-1 normal-case text-brand-muted/80">
               {"(tap a discovered dance to perform it)"}
             </span>
           </p>

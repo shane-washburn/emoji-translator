@@ -1,7 +1,8 @@
 {
-  "uniqueSourceStrings": 1018,
-  "localeCount": 13,
+  "uniqueSourceStrings": 1017,
+  "localeCount": 14,
   "locales": [
+    "ar-SA",
     "en-AU",
     "en-CA",
     "en-GB",
@@ -16,76 +17,81 @@
     "sv-SE",
     "uk-UA"
   ],
-  "missingTranslations": 12216,
+  "missingTranslations": 0,
   "degradedAnalysis": {
     "pass1": 0,
     "pass2": 0
   },
   "perLocale": {
+    "ar-SA": {
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
+    },
     "en-AU": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "en-CA": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "en-GB": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "en-IN": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "es-ES": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "fr-CA": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "hi-IN": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "nl-NL": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "pl-PL": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "pt-BR": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "ru-RU": {
-      "total": 1018,
-      "ready": 1018,
+      "total": 1017,
+      "ready": 1017,
       "missing": 0
     },
     "sv-SE": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     },
     "uk-UA": {
-      "total": 1018,
-      "ready": 0,
-      "missing": 1018
+      "total": 1017,
+      "ready": 1017,
+      "missing": 0
     }
   }
 }

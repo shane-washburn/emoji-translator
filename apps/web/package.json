@@ -7,9 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build && tsx scripts/generate-seo.mts",
     "preview": "vite preview",
-    "i18n:extract": "node vendor/hedgeling-i18n/dist/cli/index.js extract --write",
-    "i18n:diagnostics": "node vendor/hedgeling-i18n/dist/cli/index.js diagnostics",
-    "i18n:check": "node vendor/hedgeling-i18n/dist/cli/index.js check"
+    "i18n:extract": "hedgeling extract --write",
+    "i18n:diagnostics": "hedgeling diagnostics",
+    "i18n:check": "hedgeling check"
   },
   "dependencies": {
     "@scroll-goblin/module-aura-farm": "workspace:*",
@@ -27,6 +27,7 @@
     "@scroll-goblin/module-touch-grass": "workspace:*",
     "@scroll-goblin/shared": "workspace:*",
     "@scroll-goblin/ui": "workspace:*",
+    "@hedgeling/i18n": "1.0.0-rc.0",
     "@vercel/analytics": "^2.0.1",
     "lucide-react": "^0.451.0",
     "react": "^18.3.1",

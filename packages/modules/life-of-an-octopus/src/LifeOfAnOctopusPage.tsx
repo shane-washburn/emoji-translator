@@ -368,7 +368,7 @@ export default function LifeOfAnOctopusPage() {
           {/* Camouflage indicator — surfaces only while you're actually hidden. */}
           <span
             ref={camoRef}
-            className="pointer-events-none absolute left-3 top-3 z-10 rounded-neobrutal border-thin border-brand-border bg-black/45 px-2 py-1 text-[10px] font-bold uppercase text-white shadow-neo-sm transition-opacity duration-200"
+            className="pointer-events-none absolute start-3 top-3 z-10 rounded-neobrutal border-thin border-brand-border bg-black/45 px-2 py-1 text-[10px] font-bold uppercase text-white shadow-neo-sm transition-opacity duration-200"
             style={{ opacity: 0 }}
           >
             🫥 Camouflaged
@@ -460,7 +460,7 @@ export default function LifeOfAnOctopusPage() {
                   ? "A friend's octopus lived this life"
                   : "An octopus lives only once"}
               </h2>
-              <div className="mt-2 sm:mt-4 grid w-full max-w-sm grid-cols-2 gap-1.5 sm:gap-2 text-left px-2">
+              <div className="mt-2 sm:mt-4 grid w-full max-w-sm grid-cols-2 gap-1.5 sm:gap-2 px-2 text-start">
                 {STAT_LABELS.map(([key, label]) => (
                   <div
                     key={key}

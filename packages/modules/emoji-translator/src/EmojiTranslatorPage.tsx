@@ -201,12 +201,12 @@ export default function EmojiTranslatorPage() {
           <div className="relative min-h-[180px] w-full rounded-neobrutal border-thick border-brand-border bg-brand-primary p-4 shadow-neo-md">
             {result ? (
               <>
-                <p className="pr-12 text-base font-bold leading-relaxed text-brand-text break-words">
+                <p className="pe-12 text-base font-bold leading-relaxed text-brand-text break-words">
                   {result.translation}
                 </p>
                 <button
                   onClick={copyOutput}
-                  className="absolute right-3 top-3 rounded-neobrutal border-thin border-brand-border bg-brand-background p-1.5 text-brand-text shadow-neo-sm transition-[transform,box-shadow] duration-100 active:translate-x-0.5 active:translate-y-0.5 active:shadow-neo-pressed"
+                  className="absolute end-3 top-3 rounded-neobrutal border-thin border-brand-border bg-brand-background p-1.5 text-brand-text shadow-neo-sm transition-[transform,box-shadow] duration-100 active:translate-x-0.5 active:translate-y-0.5 active:shadow-neo-pressed"
                   title={"Copy"}
                 >
                   {copied ? (
@@ -276,7 +276,7 @@ export default function EmojiTranslatorPage() {
         )}
 
         {cached && result && (
-          <p className="mt-3 text-right text-xs font-bold text-brand-text">
+          <p className="mt-3 text-end text-xs font-bold text-brand-text">
             {"served from cache"}
           </p>
         )}

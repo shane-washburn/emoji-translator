@@ -755,42 +755,6 @@
       ]
     },
     {
-      "key": "3db700f7aa85f76cc4c27f9731ee7506",
-      "source": "✋ Touch",
-      "contexts": [
-        {
-          "shape": "button",
-          "purpose": "button text for an action the user can take",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
-              "line": 452,
-              "kind": "button-text"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "2de696490b0342d13d6f69aa53696e18",
-      "source": "🌱 Touch Grass",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "body copy shown in the user interface",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
-              "line": 436,
-              "kind": "div-text"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "63ad62872696b1ec2af88b3535dfcb31",
       "source": "🎈 Balloon Blower",
       "contexts": [
@@ -3780,24 +3744,6 @@
       ]
     },
     {
-      "key": "445d337b5cd5de476f99333df6b0c2a7",
-      "source": "Canada",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 107,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "d63bdb01f50db861c0dc81d87bf6bba5",
       "source": "Cannot be known here",
       "contexts": [
@@ -5287,54 +5233,6 @@
       ]
     },
     {
-      "key": "ff174d64774d5421545e1b38ded8db2f",
-      "source": "Crab",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/draw.ts",
-              "line": 359,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 420,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 429,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 433,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 581,
-              "kind": "value-literal:call"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 673,
-              "kind": "value-literal:call"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 958,
-              "kind": "value-literal:logic"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "8f8f16680f8ae3f8863ec8e6ad51a288",
       "source": "Create Match",
       "contexts": [
@@ -5924,24 +5822,6 @@
             {
               "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
               "line": 529,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "424214945ba5615eca039bfe5d731c09",
-      "source": "Denmark",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 114,
               "kind": "value-literal"
             }
           ]
@@ -8062,29 +7942,6 @@
       ]
     },
     {
-      "key": "be4990aa4393c80dc49843107b3d6366",
-      "source": "Fry",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 407,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 532,
-              "kind": "value-literal:call"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "f33966e5d29e26d43dd39b20a68d9eb2",
       "source": "FULL! Tie it off now — keep blowing and it'll explode!",
       "contexts": [
@@ -10176,24 +10033,6 @@
             {
               "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
               "line": 118,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "06e415f918c577f07328a52e24f75d43",
-      "source": "Ireland",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 116,
               "kind": "value-literal"
             }
           ]
@@ -12345,39 +12184,6 @@
       ]
     },
     {
-      "key": "5c9a6b63a5f12b7d663214113e14fd24",
-      "source": "Moray eel",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/draw.ts",
-              "line": 387,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/draw.ts",
-              "line": 388,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 598,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 660,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "822bf021d2c387b77641aa3cf20bffee",
       "source": "Morning browsing",
       "contexts": [
@@ -12790,24 +12596,6 @@
       ]
     },
     {
-      "key": "a67d4cbdd1b59e0ffccc6bafc83eb033",
-      "source": "Netherlands",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 112,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "e9bb5320b3890b6747c91b5a71ae5a01",
       "source": "Neutral",
       "contexts": [
@@ -12849,24 +12637,6 @@
             {
               "file": "packages/modules/slug-fencing/src/screens.tsx",
               "line": 420,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "c51ed580ea5e20c910d951f692512b4d",
-      "source": "New Zealand",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 115,
               "kind": "value-literal"
             }
           ]
@@ -14214,24 +13984,6 @@
               "file": "packages/modules/pushy-paws/src/PushyPawsPage.tsx",
               "line": 155,
               "kind": "data-field:short"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "c91e897d4a005988919e50f5247c9aed",
-      "source": "Português (Brasil)",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "data-driven UI text rendered dynamically from app data",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "apps/web/src/LanguageSelector.tsx",
-              "line": 21,
-              "kind": "data-field:label"
             }
           ]
         }
@@ -16791,24 +16543,6 @@
       ]
     },
     {
-      "key": "ea89b68c34ce4a63c0f77e17413c6e30",
-      "source": "Shell",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 591,
-              "kind": "value-literal:call"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "ee110d5442ab2aa985b97a2ba099b289",
       "source": "Should I take the leap?",
       "contexts": [
@@ -17157,39 +16891,6 @@
             {
               "file": "packages/modules/slug-fencing/src/screens.tsx",
               "line": 339,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "117c341e0fb8004bf025f258235417dc",
-      "source": "Small shark",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/life-of-an-octopus/src/draw.ts",
-              "line": 387,
-              "kind": "value-literal:logic"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 568,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 599,
-              "kind": "value-literal"
-            },
-            {
-              "file": "packages/modules/life-of-an-octopus/src/engine.ts",
-              "line": 661,
               "kind": "value-literal"
             }
           ]
@@ -18365,24 +18066,6 @@
       ]
     },
     {
-      "key": "c8f4261f9f46e6465709e17ebea7a92b",
-      "source": "Sweden",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 113,
-              "kind": "value-literal"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "key": "65a730710a283f0dd365db8e00b5b1cd",
       "source": "Sweet Potato",
       "contexts": [
@@ -18395,24 +18078,6 @@
               "file": "packages/modules/potato-painter/src/potato.ts",
               "line": 58,
               "kind": "data-field:name"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "key": "3ad08396dc5afa78f34f548eea3c1d64",
-      "source": "Switzerland",
-      "contexts": [
-        {
-          "shape": "body",
-          "purpose": "UI text in a value position",
-          "visualContext": "",
-          "locations": [
-            {
-              "file": "packages/modules/goblin-mirror/src/valuation.ts",
-              "line": 110,
-              "kind": "value-literal"
             }
           ]
         }

@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@hedgeling/i18n':
-        specifier: 1.0.0-rc.0
-        version: 1.0.0-rc.0(chokidar@3.6.0)(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))
+        specifier: 1.0.0-rc.6
+        version: 1.0.0-rc.6(chokidar@3.6.0)(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))
     devDependencies:
       concurrently:
         specifier: ^9.0.1
@@ -61,9 +61,6 @@ importers:
 
   apps/web:
     dependencies:
-      '@hedgeling/i18n':
-        specifier: 1.0.0-rc.2
-        version: 1.0.0-rc.2(chokidar@3.6.0)(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))
       '@scroll-goblin/module-aura-farm':
         specifier: workspace:*
         version: link:../../packages/modules/aura-farm
@@ -125,6 +122,9 @@ importers:
         specifier: ^6.26.2
         version: 6.30.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
+      '@hedgeling/i18n':
+        specifier: 1.0.0-rc.6
+        version: 1.0.0-rc.6(chokidar@3.6.0)(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))
       '@types/node':
         specifier: ^22.10.2
         version: 22.19.21
@@ -1031,30 +1031,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@hedgeling/i18n@1.0.0-rc.0':
-    resolution: {integrity: sha512-B5WhhuNdogrxfqjV9hHNMMYnhP32uuj2yLQ375F0LGkvJ2g2iMMf3s00zRDRWJr8gCVRk3QIrdOlGNAZOfvTOA==}
-    engines: {node: '>=20'}
-    hasBin: true
-    peerDependencies:
-      '@angular/common': '>=17'
-      '@angular/core': '>=17'
-      react: '>=18'
-      vite: '>=5'
-      vue: '>=3.4.0'
-    peerDependenciesMeta:
-      '@angular/common':
-        optional: true
-      '@angular/core':
-        optional: true
-      react:
-        optional: true
-      vite:
-        optional: true
-      vue:
-        optional: true
-
-  '@hedgeling/i18n@1.0.0-rc.2':
-    resolution: {integrity: sha512-h0VKj4l21EA4DU6QI/V/gIPcWhez6P4GyfbCPGdoN7az0NsWZZ12uXKN2BgH7upS42CjjONEz6EZLk3GHW63mg==}
+  '@hedgeling/i18n@1.0.0-rc.6':
+    resolution: {integrity: sha512-l1ES9RT8/JPawAxFhgu2plwlzcQoBt9uB5sTi1X1WVbY/F9pLZ6hCpV2YiFC6nG2PWv9xiLVoADFN96vEHjfbw==}
     engines: {node: '>=20'}
     hasBin: true
     peerDependencies:
@@ -2616,24 +2594,7 @@ snapshots:
   '@esbuild/win32-x64@0.28.1':
     optional: true
 
-  '@hedgeling/i18n@1.0.0-rc.0(chokidar@3.6.0)(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))':
-    dependencies:
-      '@angular-devkit/schematics': 17.3.17(chokidar@3.6.0)
-      '@angular/compiler': 17.3.12
-      '@vue/compiler-dom': 3.5.39
-      '@vue/compiler-sfc': 3.5.39
-      magic-string: 0.30.21
-      parse5: 7.3.0
-      svelte: 5.56.4
-      typescript: 5.9.3
-    optionalDependencies:
-      react: 18.3.1
-      vite: 5.4.21(@types/node@22.19.21)
-    transitivePeerDependencies:
-      - '@typescript-eslint/types'
-      - chokidar
-
-  '@hedgeling/i18n@1.0.0-rc.2(chokidar@3.6.0)(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))':
+  '@hedgeling/i18n@1.0.0-rc.6(chokidar@3.6.0)(react@18.3.1)(vite@5.4.21(@types/node@22.19.21))':
     dependencies:
       '@angular-devkit/schematics': 17.3.17(chokidar@3.6.0)
       '@angular/compiler': 17.3.12

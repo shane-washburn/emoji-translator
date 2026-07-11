@@ -25,7 +25,11 @@
   "outputDir": "apps/web/i18n",
   "runtimeOutputDir": "apps/web/public",
   "projectSlug": "scroll-goblin",
-  "adapters": ["react-ts", "js-ts", "html"],
+  "adapters": [
+    "react-ts",
+    "js-ts",
+    "html"
+  ],
   "checkAcknowledgements": [
     {
       "kind": "manual-t:concat",
@@ -48,7 +52,7 @@
     "Hidden",
     "\\d+ GB",
     "Dark",
-    "Touch",
+    "^Touch$",
     "Enabled",
     "Explorer",
     "Fast Scroller",

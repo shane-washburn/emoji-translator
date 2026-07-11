@@ -115,7 +115,22 @@
       while ((match = placeholderRegex.exec(source)) !== null) {
         const literal = source.slice(lastIndex, match.index);
         regexStr += literal.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-        regexStr += "([\\s\\S]+?)";
+        // Word-boundary guard: when a placeholder butts directly against a
+        // letter in the adjacent literal (e.g. "{seconds}s"), the capture must
+        // not split a word. Without this, "^([\s\S]+?)s$" matches ANY text
+        // ending in "s" ("grass" -> capture "gras" + literal "s") and the
+        // injector rewrites unrelated DOM text through the translation
+        // template (observed live: "GRASS" -> "GRAS S"). Values like "30s"
+        // still match because "0" + "s" is not a letter-letter seam.
+        const prevChar = match.index > 0 ? source[match.index - 1] : "";
+        const nextChar = source[placeholderRegex.lastIndex] || "";
+        const letterRe = /\p{L}/u;
+        const head = letterRe.test(prevChar) ? "[^\\p{L}]" : "[\\s\\S]";
+        if (letterRe.test(nextChar)) {
+          regexStr += "(" + head + "[\\s\\S]*?[^\\p{L}]|[^\\p{L}])";
+        } else {
+          regexStr += "(" + head + "[\\s\\S]*?)";
+        }
         names.push(match[0].slice(1, -1));
         lastIndex = placeholderRegex.lastIndex;
         placeholderIndex++;
@@ -132,7 +147,7 @@
         }
       }
 
-      patterns.push({ key, source, regex: new RegExp(regexStr), names, anchor, context });
+      patterns.push({ key, source, regex: new RegExp(regexStr, "u"), names, anchor, context });
     }
 
     // Contextual records first so a matching inferred shape wins over the

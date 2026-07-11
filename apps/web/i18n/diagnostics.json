@@ -4,15 +4,15 @@
     "required": 1,
     "definite": 0,
     "potential": 46,
-    "safe": 646,
-    "total": 693,
+    "safe": 650,
+    "total": 697,
     "glossaryMatches": 0
   },
   "metrics": {
-    "extracted": 931,
-    "autoWrapped": 538,
-    "transWrapped": 14,
-    "injectorOnly": 360,
+    "extracted": 939,
+    "autoWrapped": 543,
+    "transWrapped": 15,
+    "injectorOnly": 362,
     "alreadyWrapped": 19,
     "manualTRequired": 9,
     "dntExcluded": 4,
@@ -61,7 +61,6 @@
       "exclude-pattern:Probable Country": 2,
       "exclude-pattern:Device Tier": 2,
       "exclude-pattern:High-end": 2,
-      "exclude-pattern:Touch": 14,
       "exclude-pattern:^Edge$": 1,
       "exclude-pattern:^Opera$": 1,
       "exclude-pattern:^Firefox$": 1,
@@ -95,6 +94,7 @@
       "exclude-pattern:^Garamond$": 1,
       "exclude-pattern:^Menlo$": 1,
       "exclude-pattern:^Helvetica Neue$": 1,
+      "exclude-pattern:^Touch$": 3,
       "exclude-pattern:Dark": 3,
       "exclude-pattern:Enabled": 3,
       "exclude-pattern:^None$": 6,
@@ -120,10 +120,10 @@
       "deny-callee:gtag": 5
     },
     "devEffortSaved": {
-      "stringsAutomated": 912,
+      "stringsAutomated": 920,
       "minutesPerString": 5,
-      "totalMinutesSaved": 4560,
-      "totalHoursSaved": 76
+      "totalMinutesSaved": 4600,
+      "totalHoursSaved": 76.66666666666667
     }
   },
   "required": [
@@ -2491,6 +2491,15 @@
     {
       "severity": "safe",
       "text": "Mouse Style",
+      "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
+      "line": 581,
+      "kind": "value-literal",
+      "reason": "Plain value position (array/object value, return, variable, or inline segment).",
+      "hint": "Most likely rendered as DOM text and translated automatically by the injector. No action needed unless it is drawn to <canvas> or transformed before display."
+    },
+    {
+      "severity": "safe",
+      "text": "Touch Style",
       "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
       "line": 581,
       "kind": "value-literal",
@@ -6253,6 +6262,24 @@
     },
     {
       "severity": "safe",
+      "text": "Touch Grass",
+      "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+      "line": 437,
+      "kind": "value-literal",
+      "reason": "Plain value position (array/object value, return, variable, or inline segment).",
+      "hint": "Most likely rendered as DOM text and translated automatically by the injector. No action needed unless it is drawn to <canvas> or transformed before display."
+    },
+    {
+      "severity": "safe",
+      "text": "Go ahead. Touch the grass",
+      "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+      "line": 440,
+      "kind": "value-literal",
+      "reason": "Plain value position (array/object value, return, variable, or inline segment).",
+      "hint": "Most likely rendered as DOM text and translated automatically by the injector. No action needed unless it is drawn to <canvas> or transformed before display."
+    },
+    {
+      "severity": "safe",
       "text": "Brush it, press to flatten it, double-tap to pluck a blade — or grab the watering can and help it grow.",
       "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
       "line": 444,
@@ -6283,6 +6310,15 @@
       "text": "Brush, press, or double-tap",
       "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
       "line": 476,
+      "kind": "value-literal",
+      "reason": "Plain value position (array/object value, return, variable, or inline segment).",
+      "hint": "Most likely rendered as DOM text and translated automatically by the injector. No action needed unless it is drawn to <canvas> or transformed before display."
+    },
+    {
+      "severity": "safe",
+      "text": "Touches",
+      "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+      "line": 515,
       "kind": "value-literal",
       "reason": "Plain value position (array/object value, return, variable, or inline segment).",
       "hint": "Most likely rendered as DOM text and translated automatically by the injector. No action needed unless it is drawn to <canvas> or transformed before display."

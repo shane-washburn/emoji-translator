@@ -12,7 +12,6 @@
     "i18n:check": "hedgeling check"
   },
   "dependencies": {
-    "@hedgeling/i18n": "1.0.0-rc.2",
     "@scroll-goblin/module-aura-farm": "workspace:*",
     "@scroll-goblin/module-balloon-blower": "workspace:*",
     "@scroll-goblin/module-brainrot-button": "workspace:*",
@@ -35,6 +34,7 @@
     "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
+    "@hedgeling/i18n": "1.0.0-rc.6",
     "@types/node": "^22.10.2",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",

@@ -755,6 +755,42 @@
       ]
     },
     {
+      "key": "3db700f7aa85f76cc4c27f9731ee7506",
+      "source": "✋ Touch",
+      "contexts": [
+        {
+          "shape": "button",
+          "purpose": "button text for an action the user can take",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+              "line": 452,
+              "kind": "button-text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "2de696490b0342d13d6f69aa53696e18",
+      "source": "🌱 Touch Grass",
+      "contexts": [
+        {
+          "shape": "body",
+          "purpose": "body copy shown in the user interface",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+              "line": 436,
+              "kind": "div-text"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "key": "63ad62872696b1ec2af88b3535dfcb31",
       "source": "🎈 Balloon Blower",
       "contexts": [
@@ -7689,6 +7725,36 @@
             {
               "file": "packages/modules/musical-dna/src/music.ts",
               "line": 82,
+              "kind": "value-literal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "22f8668bdf1828a12f975aa4a70b5aaa",
+      "source": "Go ahead. Touch the grass",
+      "contexts": [
+        {
+          "shape": "header",
+          "purpose": "heading text for a page or UI section",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+              "line": 439,
+              "kind": "heading-text"
+            }
+          ]
+        },
+        {
+          "shape": "body",
+          "purpose": "UI text in a value position",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+              "line": 440,
               "kind": "value-literal"
             }
           ]
@@ -18535,6 +18601,120 @@
               "file": "apps/web/src/pages/Leaderboard.tsx",
               "line": 232,
               "kind": "value-literal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "101507f9f0c167fe15518d77f2ab81b4",
+      "source": "Touch device",
+      "contexts": [
+        {
+          "shape": "body",
+          "purpose": "data-driven UI text rendered dynamically from app data",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/goblin-mirror/src/inferences.ts",
+              "line": 100,
+              "kind": "data-field:value"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "c9bf947730af2c9c78ef334b3660a2d0",
+      "source": "Touch Grass",
+      "contexts": [
+        {
+          "shape": "body",
+          "purpose": "UI text in a value position",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+              "line": 437,
+              "kind": "value-literal"
+            }
+          ]
+        },
+        {
+          "shape": "body",
+          "purpose": "data-driven UI text rendered dynamically from app data",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/manifest.ts",
+              "line": 5,
+              "kind": "data-field:title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "b18fbd2bc4fb455545c0901d654315ee",
+      "source": "Touch Style",
+      "contexts": [
+        {
+          "shape": "body",
+          "purpose": "UI text in a value position",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/goblin-mirror/src/GoblinMirrorPage.tsx",
+              "line": 581,
+              "kind": "value-literal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "2e57552ac1759f81608d0b2f3cdfc770",
+      "source": "Touches",
+      "contexts": [
+        {
+          "shape": "body",
+          "purpose": "UI text in a value position, applied at runtime by the DOM injector",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+              "line": 515,
+              "kind": "value-literal"
+            }
+          ]
+        },
+        {
+          "shape": "body",
+          "purpose": "UI text in a value position",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+              "line": 515,
+              "kind": "value-literal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "7347e516bbd70d2d183e23be6e0b780b",
+      "source": "Touches: <0>{touches}</0>",
+      "contexts": [
+        {
+          "shape": "body",
+          "purpose": "body copy shown in the user interface",
+          "visualContext": "",
+          "locations": [
+            {
+              "file": "packages/modules/touch-grass/src/TouchGrassPage.tsx",
+              "line": 514,
+              "kind": "span-text-rich"
             }
           ]
         }

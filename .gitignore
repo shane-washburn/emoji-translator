@@ -21,3 +21,5 @@ build/
 
 # vite
 apps/web/dist/
+
+.hedgeling/local.env

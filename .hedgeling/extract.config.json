@@ -26,9 +26,12 @@
   "runtimeOutputDir": "apps/web/public",
   "projectSlug": "scroll-goblin",
   "adapters": ["react-ts", "js-ts", "html"],
-  "excludePatterns": [
-    "^\\{d\\} Z$",
-    "^English$"
+  "checkAcknowledgements": [
+    {
+      "kind": "manual-t:concat",
+      "text": "{d} Z",
+      "reason": "SVG path-data assembly in potato-painter buildPotatoPath (d + ' Z'); technical string, never user-visible copy. Reviewed 2026-07-11 during rc.2 soak. Note: a prior duplicate excludePatterns key silently shadowed the ^\\{d\\} Z$ pattern intended for this."
+    }
   ],
   "ignoredDirs": [
     ".git",

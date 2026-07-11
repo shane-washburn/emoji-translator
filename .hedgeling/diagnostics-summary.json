@@ -6,7 +6,8 @@
     "potential": 46,
     "safe": 646,
     "total": 693,
-    "glossaryMatches": 0
+    "glossaryMatches": 0,
+    "dntExcluded": 4
   },
   "metrics": {
     "extracted": 931,
@@ -6379,3 +6380,5 @@
     }
   ]
 }
+
+Wrote apps/web/i18n/diagnostics.json

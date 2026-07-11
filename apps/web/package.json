@@ -12,10 +12,11 @@
     "i18n:check": "hedgeling check"
   },
   "dependencies": {
+    "@hedgeling/i18n": "1.0.0-rc.2",
     "@scroll-goblin/module-aura-farm": "workspace:*",
     "@scroll-goblin/module-balloon-blower": "workspace:*",
-    "@scroll-goblin/module-commune-with-god": "workspace:*",
     "@scroll-goblin/module-brainrot-button": "workspace:*",
+    "@scroll-goblin/module-commune-with-god": "workspace:*",
     "@scroll-goblin/module-emoji-translator": "workspace:*",
     "@scroll-goblin/module-goblin-mirror": "workspace:*",
     "@scroll-goblin/module-life-of-an-octopus": "workspace:*",
@@ -27,7 +28,6 @@
     "@scroll-goblin/module-touch-grass": "workspace:*",
     "@scroll-goblin/shared": "workspace:*",
     "@scroll-goblin/ui": "workspace:*",
-    "@hedgeling/i18n": "1.0.0-rc.0",
     "@vercel/analytics": "^2.0.1",
     "lucide-react": "^0.451.0",
     "react": "^18.3.1",
